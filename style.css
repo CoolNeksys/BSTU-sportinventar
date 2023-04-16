@@ -1,4 +1,4 @@
-.item {
+.child {
   position: absolute;
   top: 0;
   left: 497px;
@@ -6,36 +6,43 @@
   width: 526.95px;
   height: 826px;
 }
-.p3 {
+
+.hamburger-menu{
+  visibility: hidden;
+}
+.p {
   margin: 0;
 }
-.div41,
-.div42 {
-  position: absolute;
+.div1 {
+  top: 0;
   left: 15px;
   letter-spacing: 0.02em;
-  display: inline-block;
-}
-.div41 {
-  top: 0;
   line-height: 110%;
   font-weight: 500;
-  width: 585px;
+  display: inline-block;
+  width: 556px;
 }
-.div42 {
+.div1,
+.div2,
+.slide-1 {
+  position: absolute;
+}
+.div2 {
   top: 167px;
-  font-size: var(--font-size);
+  left: 15px;
+  font-size: var(--h4-size);
+  letter-spacing: 0.02em;
   line-height: 140%;
+  display: inline-block;
   width: 385px;
 }
-.slide-11 {
-  position: absolute;
+.slide-1 {
   top: 265px;
   left: 0;
   width: 562px;
   height: 385px;
 }
-.photo-1094-1-icon1 {
+.photo-1094-1-icon {
   position: absolute;
   top: 130px;
   left: 574px;
@@ -43,7 +50,7 @@
   height: 667px;
   object-fit: cover;
 }
-.mega-sport4 {
+.mega-sport {
   position: relative;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -53,7 +60,7 @@
   height: 26px;
   flex-shrink: 0;
 }
-.div45 {
+.div5 {
   top: 0;
   left: 26px;
   display: flex;
@@ -61,25 +68,25 @@
   align-items: center;
   justify-content: flex-start;
 }
-.div44,
-.div45,
-.icon4 {
+.div4,
+.div5,
+.icon {
   position: absolute;
 }
-.icon4 {
+.icon {
   top: 0;
   left: 0;
   width: 18px;
   height: 18px;
   object-fit: cover;
 }
-.div44 {
+.div4 {
   top: 17px;
-  left: 26px;
+  left: 27px;
   width: 184px;
   height: 26px;
 }
-.vector-icon1 {
+.vector-icon {
   height: 75.94%;
   width: 61.94%;
   top: 9.68%;
@@ -90,8 +97,8 @@
   max-height: 100%;
   cursor: pointer;
 }
-.div43,
-.vector-icon1,
+.div3,
+.vector-icon,
 .vector-wrapper {
   position: absolute;
   overflow: hidden;
@@ -106,44 +113,44 @@
   width: 31px;
   height: 31px;
 }
-.div43 {
+.div3 {
   top: 0;
   left: 0;
   width: 1003.2px;
   height: 52px;
 }
-.button8,
-.button9,
-.div46 {
+.button,
+.button1,
+.div6 {
   font-size: var(--font-size-mini);
   letter-spacing: 0.02em;
   line-height: 140%;
   display: inline-block;
 }
-.div46 {
+.div6 {
   position: absolute;
   top: 14px;
   left: 820px;
   width: 108.8px;
 }
-.button8,
-.button9 {
+.button,
+.button1 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
   position: relative;
-  font-family: var(--font);
+  font-family: var(--h4);
   text-align: left;
 }
-.button8 {
+.button {
   font-weight: 700;
   color: var(--cta);
 }
-.button9 {
+.button1 {
   color: var(--color-black);
 }
-.parent7 {
+.group {
   top: 14px;
   left: 300px;
   display: flex;
@@ -152,53 +159,112 @@
   justify-content: flex-start;
   gap: 45px;
 }
-.div40,
-.parent6,
-.parent7 {
+
+.header___burger{
+  display: none;
+  width: 40px;
+  height: 28px;
+  position: relative;
+  top: 20px;
+  left: 260px;
+}
+
+.burger___line{
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: coral;
+  position: absolute;
+  right: 0;
+}
+
+.burger_line_first{
+  top: 0;
+}
+
+.burger_line_second{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.burger_line_third{
+  bottom: 0;
+}
+.div,
+.group,
+.parent {
   position: absolute;
 }
-.parent6 {
+.parent {
   top: 13px;
   left: 12px;
   width: 1003.2px;
   height: 56px;
   font-size: var(--font-size-base);
 }
-.div40 {
+.div {
   top: 0;
   left: 0;
   width: 1023.95px;
   height: 826px;
 }
-.div49,
-.div50 {
+.winter,
+.spring,
+.summer,
+.autumn,
+.div9 {
   position: relative;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-.div49 {
+.div9 {
   line-height: 110%;
   z-index: 0;
 }
-.div50 {
-  font-size: var(--font1-size);
+.winter {
+  font-size: var(--font-size);
   line-height: 140%;
-  font-family: var(--font);
+  font-family: var(--h4);
   color: var(--color-black);
   text-align: left;
 }
-.button12 {
+
+.spring {
+  font-size: var(--font-size);
+  line-height: 140%;
+  font-family: var(--h4);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.summer {
+  font-size: var(--font-size);
+  line-height: 140%;
+  font-family: var(--h4);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.autumn {
+  font-size: var(--font-size);
+  line-height: 140%;
+  font-family: var(--h4);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.button4 {
   left: 613px;
   z-index: 0;
 }
-.button12,
-.button13,
-.button14 {
+.button4,
+.button5,
+.button6 {
   cursor: pointer;
   border: 1px solid var(--color-black);
   padding: var(--padding-lgi) var(--padding-46xl);
   background-color: transparent;
-  margin: 0 !important;
+  margin: 0px;
   position: absolute;
   top: 0;
   overflow: hidden;
@@ -207,77 +273,81 @@
   align-items: center;
   justify-content: flex-start;
 }
-.button13 {
+.button5 {
   left: 812px;
   z-index: 1;
 }
-.button14 {
+.button6 {
   left: 402px;
   z-index: 2;
 }
-.div53 {
+.div13 {
   position: relative;
-  font-size: var(--font1-size);
+  font-size: var(--font-size);
   letter-spacing: 0.02em;
   line-height: 140%;
   font-weight: 500;
-  font-family: var(--font);
+  font-family: var(--h4);
   color: var(--color-white);
   text-align: left;
 }
-.button15,
-.button16 {
+.button8 {
   cursor: pointer;
+  border: 0;
   padding: var(--padding-lgi) var(--padding-46xl);
-  margin: 0 !important;
+  background-color: var(--color-black);
+  position: absolute;
   top: 0;
+  left: 0;
   overflow: hidden;
+  z-index: 3;
+}
+.button7,
+.button8,
+.container {
+  margin: 0 !important;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
-.button15 {
-  border: 0;
-  background-color: var(--color-black);
-  position: absolute;
-  left: 0;
-  z-index: 3;
-}
-.button16 {
+.button7 {
+  cursor: pointer;
   border: 1px solid var(--color-black);
+  padding: var(--padding-lgi) var(--padding-46xl);
   background-color: transparent;
+  position: absolute;
+  top: 0;
   left: 191px;
+  overflow: hidden;
   z-index: 4;
 }
-.button16,
-.div55,
-.parent8 {
-  position: absolute;
-}
-.parent8 {
-  margin: 0 !important;
+.container {
   top: 105px;
   left: 11px;
   width: 984px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   gap: var(--gap-3xs);
   z-index: 1;
 }
-.div55 {
+.button9,
+.container,
+.div15 {
+  position: absolute;
+}
+.div15 {
   top: calc(50% - 12px);
   left: calc(50% - 84px);
-  font-size: var(--font1-size);
+  font-size: var(--font-size);
   letter-spacing: 0.02em;
   line-height: 138.9%;
-  font-family: var(--font);
+  font-family: var(--h4);
   color: var(--cta);
   text-align: center;
+  z-index: 10 !important;
 }
-.button17 {
+.button10,
+.button9 {
+  box-sizing: border-box;
   cursor: pointer;
   border: 1px solid var(--cta);
   padding: 0;
@@ -291,38 +361,35 @@
   height: 72px;
   flex-shrink: 0;
   overflow: hidden;
-  z-index: 0;
+  z-index: 10 !important;
 }
-.button17:hover,
-.button18,
-.button18:hover,
-.button19:hover {
+.button9 {
+  margin: 0 !important;
+  left: 39px;
+  flex-shrink: 0;
+}
+.button10 {
+  left: 378px;
+  z-index: 1;
+}
+.button10:hover,
+.button11:hover,
+.button9:hover {
   background-color: var(--color-cadetblue-100);
   border: 1px solid var(--color-white);
   box-sizing: border-box;
+  color: #fff;
 }
-.button18 {
-  cursor: pointer;
-  border: 1px solid var(--cta);
-  padding: 0;
-  background-color: var(--color-white);
-  top: 530px;
-  left: 378px;
-  width: 268px;
-  height: 72px;
-  overflow: hidden;
-  z-index: 1;
-}
-.button18,
-.button19,
-.icon5,
-.icon6,
-.icon7 {
+.button10,
+.button11,
+.icon1,
+.icon2,
+.icon3 {
   position: absolute;
   margin: 0 !important;
   flex-shrink: 0;
 }
-.button19 {
+.button11 {
   cursor: pointer;
   border: 1px solid var(--cta);
   padding: 0;
@@ -333,42 +400,42 @@
   width: 268px;
   height: 72px;
   overflow: hidden;
-  z-index: 2;
+  z-index: 10 !important;
 }
-.icon5 {
+.icon1 {
   top: 54px;
   left: 707px;
   height: 428px;
   object-fit: cover;
   z-index: 0;
 }
-.icon5,
-.icon6 {
+.icon1,
+.icon2 {
   width: 286px;
 }
-.icon6,
-.icon7 {
+.icon2,
+.icon3 {
   top: 54px;
   height: 428px;
   object-fit: cover;
 }
-.icon6 {
+.icon2 {
   left: 365px;
   z-index: 1;
 }
-.icon7 {
+.icon3 {
   left: 22px;
   width: 287px;
   z-index: 2;
 }
-.div48,
-.div58,
-.parent9 {
+.div18,
+.div8,
+.frame-div {
   flex-shrink: 0;
   display: flex;
   justify-content: flex-start;
 }
-.div58 {
+.div18 {
   margin: 0 !important;
   position: absolute;
   top: 29px;
@@ -382,12 +449,12 @@
   gap: var(--gap-11xl);
   z-index: 3;
 }
-.div48,
-.parent9 {
+.div8,
+.frame-div {
   width: 1024px;
   flex-direction: column;
 }
-.parent9 {
+.frame-div {
   margin: 0 !important;
   position: absolute;
   top: 182px;
@@ -397,7 +464,7 @@
   gap: var(--gap-46xl);
   z-index: 2;
 }
-.div48 {
+.div8 {
   height: 885px;
   padding: 0 var(--padding-478xl) 0 0;
   box-sizing: border-box;
@@ -406,55 +473,55 @@
   gap: var(--gap-73xl);
   z-index: 0;
 }
-.div59,
-.div60,
-.div61 {
+.div19,
+.div20,
+.div21 {
   position: absolute;
   left: 0;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-.div59 {
+.div19 {
   top: 0;
   font-size: var(--h2-size);
   line-height: 110%;
 }
-.div60,
-.div61 {
+.div20,
+.div21 {
   width: 43.26%;
   top: 34.78%;
   line-height: 140%;
   display: inline-block;
 }
-.div61 {
+.div21 {
   top: 145px;
-  font-size: var(--font1-size);
+  font-size: var(--font-size);
   width: 305px;
   height: 115px;
 }
-.frame-icon,
-.parent11 {
+.frame-child,
+.parent2 {
   position: absolute;
   top: 4px;
   left: 0;
   width: 76px;
   height: 78px;
 }
-.parent11 {
+.parent2 {
   top: 116px;
   left: 372px;
   width: 335px;
   height: 276px;
   overflow: hidden;
 }
-.frame-child1 {
+.frame-item {
   position: absolute;
   top: 14px;
   left: 7px;
   width: 61px;
   height: 61px;
 }
-.div62 {
+.div22 {
   position: absolute;
   width: 40.22%;
   top: 35.29%;
@@ -464,60 +531,58 @@
   font-weight: 500;
   display: inline-block;
 }
-.frame-parent1,
-.frame-parent2 {
+.frame-group,
+.frame-parent {
   position: absolute;
-  height: 272px;
-  overflow: hidden;
-}
-.frame-parent2 {
   top: 0;
   left: 0;
   width: 363px;
+  height: 272px;
+  overflow: hidden;
 }
-.frame-parent1 {
+.frame-parent {
   top: 118px;
   left: 36px;
   width: 277px;
   mix-blend-mode: normal;
 }
-.div64,
-.wrapper1 {
+.div24,
+.wrapper {
   position: absolute;
   left: 0;
 }
-.div64 {
+.div24 {
   top: 35.29%;
   letter-spacing: 0.02em;
   line-height: 140%;
   font-weight: 500;
 }
-.wrapper1 {
+.wrapper {
   top: 0;
   width: 350px;
   height: 272px;
   overflow: hidden;
 }
-.frame-child2 {
+.frame-inner {
   position: absolute;
   top: 12px;
   left: 7px;
   width: 63px;
   height: 63px;
 }
-.frame-parent3,
-.parent10 {
+.frame-container,
+.parent1 {
   position: absolute;
   overflow: hidden;
 }
-.frame-parent3 {
+.frame-container {
   top: 118px;
   left: 721px;
   width: 276px;
   height: 272px;
   mix-blend-mode: normal;
 }
-.parent10 {
+.parent1 {
   margin: 0 !important;
   top: 885px;
   left: 4px;
@@ -528,8 +593,8 @@
   z-index: 1;
   font-size: var(--h3-size);
 }
-.div67,
-.mega-sport-container1 {
+.div27,
+.mega-sport-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -537,29 +602,29 @@
   line-height: 140%;
   font-weight: 500;
 }
-.mega-sport-container1 {
+.mega-sport-container {
   top: 63px;
-  font-size: var(--font1-size);
+  font-size: var(--font-size);
   display: inline-block;
   width: 255px;
 }
-.parent12,
-.sport2610-1-11 {
+.parent3,
+.sport2610-1-1 {
   position: absolute;
   margin: 0 !important;
   flex-shrink: 0;
 }
-.parent12 {
-  top: 174px;
+.parent3 {
+  top: 170px;
   left: 739px;
   width: 255px;
   height: 331px;
   z-index: 1;
   font-size: var(--h3-size);
 }
-.sport2610-1-11 {
-  top: 155px;
-  left: 38px;
+.sport2610-1-1 {
+  top: 150px;
+  left: 1px;
   width: 655px;
   height: 369px;
   background-image: url(./public/sport2610111@3x.png);
@@ -568,15 +633,15 @@
   background-position: top;
   z-index: 2;
 }
-.div47,
-.div66 {
+.div26,
+.div7 {
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.div66 {
+.div26 {
   margin: 0 !important;
   top: 1279px;
   left: 4px;
@@ -586,50 +651,52 @@
   gap: var(--gap-73xl);
   z-index: 2;
 }
-.div47 {
+.div7 {
   top: 869px;
   left: 0;
   width: 1024px;
   height: 1803px;
   font-size: var(--h2-size);
 }
-.div68,
-.div69 {
+.div28,
+.div29 {
   left: 4px;
-}
-.div68,
-.div69,
-.div70 {
-  position: absolute;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-.div68 {
+.div28 {
+  position: absolute;
   top: 0;
   font-size: var(--h2-size);
   line-height: 110%;
 }
-.div69,
-.div70 {
+.div29 {
   top: 7px;
   line-height: 140%;
 }
-.div70 {
+.div29,
+.div30,
+.parent4 {
+  position: absolute;
+}
+.div30 {
+  top: 7px;
   left: 95px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-weight: 500;
   display: inline-block;
   width: 152px;
   height: 24px;
 }
-.parent13 {
-  position: absolute;
+.parent4 {
   top: 48px;
   left: 0;
   width: 322px;
   height: 40px;
   overflow: hidden;
 }
-.elb00308gbstuby2 {
-  position: absolute;
+.elb00308gbstuby {
   top: 7px;
   left: 95px;
   letter-spacing: 0.02em;
@@ -639,49 +706,52 @@
   width: 204px;
   height: 24px;
 }
-.parent14 {
+.div33,
+.elb00308gbstuby,
+.parent5 {
   position: absolute;
+}
+.parent5 {
   top: 79px;
   left: 0;
   width: 322px;
   height: 40px;
   overflow: hidden;
 }
-.div73 {
-  position: absolute;
+.div33 {
   top: 4px;
   left: 97px;
-  font-size: var(--font-size);
+  font-size: var(--h4-size);
   letter-spacing: 0.02em;
   line-height: 140%;
   font-weight: 500;
   display: inline-block;
   width: 308px;
 }
-.contakts1,
-.parent15 {
+.contakts,
+.parent6 {
   position: absolute;
   left: 0;
   overflow: hidden;
 }
-.parent15 {
+.parent6 {
   top: 110px;
   width: 405px;
   height: 40px;
 }
-.contakts1 {
+.contakts {
   top: 2763px;
   width: 497px;
   height: 162px;
-  font-size: var(--font1-size);
+  font-size: var(--font-size);
 }
-.mega-sport7 {
+.mega-sport3 {
   position: relative;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 500;
 }
-.mega-sport-frame {
+.mega-sport-wrapper {
   position: absolute;
   top: 104px;
   left: 78px;
@@ -691,7 +761,7 @@
   justify-content: flex-start;
   font-size: var(--font-size-base);
 }
-.button20 {
+.button12 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -700,13 +770,13 @@
   font-size: var(--font-size-mini);
   letter-spacing: 0.02em;
   line-height: 140%;
-  font-family: var(--font);
+  font-family: var(--h4);
   color: var(--color-black);
   text-align: left;
   display: inline-block;
   width: 147px;
 }
-.parent16 {
+.parent7 {
   position: absolute;
   top: 105px;
   left: 869px;
@@ -716,12 +786,12 @@
   justify-content: flex-start;
   gap: var(--gap-4xs);
 }
-.div76 {
+.div36 {
   position: relative;
   letter-spacing: 0.02em;
   line-height: 140%;
 }
-.div75 {
+.div35 {
   position: absolute;
   top: 201px;
   left: 78px;
@@ -732,7 +802,7 @@
   gap: 6px;
   font-size: var(--font-size-smi);
 }
-.vector-icon2 {
+.vector-icon1 {
   height: 100%;
   width: 100%;
   top: 0;
@@ -740,15 +810,15 @@
   bottom: 0;
   left: 0;
 }
+.vector-icon1,
 .vector-icon2,
-.vector-icon3,
-.vector-icon4 {
+.vector-icon3 {
   position: absolute;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon3 {
+.vector-icon2 {
   height: 53.91%;
   width: 53.91%;
   top: 23.05%;
@@ -756,7 +826,7 @@
   bottom: 23.05%;
   left: 23.05%;
 }
-.vector-icon4 {
+.vector-icon3 {
   height: 7.81%;
   width: 7.81%;
   top: 18.75%;
@@ -764,8 +834,8 @@
   bottom: 73.44%;
   left: 73.44%;
 }
-.facebook-1-11,
-.instagram-1-11 {
+.facebook-1-1,
+.instagram-1-1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -774,15 +844,15 @@
   flex-shrink: 0;
   overflow: hidden;
 }
-.instagram-1-11 {
+.instagram-1-1 {
   width: 22px;
   height: 22px;
 }
-.facebook-1-11 {
+.facebook-1-1 {
   width: 21px;
   height: 21px;
 }
-.vector-icon6 {
+.vector-icon5 {
   position: absolute;
   height: 81.25%;
   width: 100%;
@@ -794,7 +864,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.twitter-1-11 {
+.twitter-1-1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -805,7 +875,7 @@
   flex-shrink: 0;
   overflow: hidden;
 }
-.div79 {
+.div39 {
   position: absolute;
   top: 178px;
   left: 869px;
@@ -815,7 +885,7 @@
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
-.visa-mastercard-1-icon1 {
+.visa-mastercard-1-icon {
   position: absolute;
   top: 221px;
   left: 869px;
@@ -823,7 +893,7 @@
   height: 22px;
   object-fit: cover;
 }
-.github1 {
+.github {
   text-decoration: none;
   top: calc(50% + 57.5px);
   left: 84.86%;
@@ -831,12 +901,12 @@
   font-family: var(--font-inter);
   color: var(--color-white);
 }
-.div74,
-.figma2,
-.github1 {
+.div34,
+.figma,
+.github {
   position: absolute;
 }
-.figma2 {
+.figma {
   top: 271px;
   left: 869px;
   text-decoration: underline;
@@ -846,29 +916,32 @@
   width: 112px;
   height: 39px;
 }
-.div74 {
+.div34 {
   top: 2933px;
   left: 0;
   background-color: var(--color-linen);
   width: 1024px;
   height: 363px;
   overflow: hidden;
-  font-size: var(--font-size);
+  font-size: var(--h4-size);
 }
 .main-1024 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 3296px;
+  height: 10000px;
   overflow: hidden;
   text-align: left;
   font-size: var(--h1-size);
   color: var(--color-black);
-  font-family: var(--font);
+  font-family: var(--h4);
 }
 
 @media screen and (max-width: 768px) {
-  .inner {
+  .hamburger-menu{
+    visibility: hidden;
+  }
+  .child {
     position: absolute;
     top: 0;
     left: 372.79px;
@@ -876,36 +949,39 @@
     width: 395.21px;
     height: 826px;
   }
-  .p6 {
+  .p {
     margin: 0;
   }
-  .div81,
-  .div82 {
-    position: absolute;
+  .div1 {
+    top: 0;
     left: 15px;
     letter-spacing: 0.02em;
-    display: inline-block;
-  }
-  .div81 {
-    top: 0;
     line-height: 110%;
     font-weight: 500;
+    display: inline-block;
     width: 364px;
   }
-  .div82 {
+  .div1,
+  .div2,
+  .slide-1 {
+    position: absolute;
+  }
+  .div2 {
     top: 244px;
-    font-size: var(--font-size);
+    left: 15px;
+    font-size: var(--h4-size);
+    letter-spacing: 0.02em;
     line-height: 140%;
+    display: inline-block;
     width: 341px;
   }
-  .slide-12 {
-    position: absolute;
+  .slide-1 {
     top: 148px;
     left: 0;
     width: 585px;
     height: 405px;
   }
-  .photo-1094-1-icon2 {
+  .photo-1094-1-icon {
     position: absolute;
     top: 130px;
     left: 372px;
@@ -913,7 +989,7 @@
     height: 667px;
     object-fit: cover;
   }
-  .mega-sport8 {
+  .mega-sport {
     position: relative;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -923,7 +999,7 @@
     height: 32px;
     flex-shrink: 0;
   }
-  .div85 {
+  .div5 {
     position: absolute;
     top: 0;
     left: 26px;
@@ -932,23 +1008,23 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .div84,
-  .icon8 {
+  .div4,
+  .icon {
     position: absolute;
     left: 0;
   }
-  .icon8 {
+  .icon {
     top: 0;
     width: 18px;
     height: 18px;
     object-fit: cover;
   }
-  .div84 {
+  .div4 {
     top: 17px;
     width: 190px;
     height: 32px;
   }
-  .vector-icon7 {
+  .vector-icon {
     height: 75.94%;
     width: 61.94%;
     top: 9.68%;
@@ -959,13 +1035,13 @@
     max-height: 100%;
     cursor: pointer;
   }
-  .div83,
-  .vector-container,
-  .vector-icon7 {
+  .div3,
+  .vector-icon,
+  .vector-wrapper {
     position: absolute;
     overflow: hidden;
   }
-  .vector-container {
+  .vector-wrapper {
     cursor: pointer;
     border: 0;
     padding: 0;
@@ -975,60 +1051,59 @@
     width: 31px;
     height: 31px;
   }
-  .div83 {
+  .div3 {
     top: 0;
     left: 0;
     width: 752.4px;
     height: 52px;
   }
-  .button21,
-  .button22,
-  .button23,
-  .button24,
-  .div86 {
+  .button,
+  .button1,
+  .button2,
+  .button3,
+  .div6 {
     font-size: var(--font-size-mini);
     letter-spacing: 0.02em;
     line-height: 140%;
     display: inline-block;
   }
-  .div86 {
+  .div6 {
     position: absolute;
     top: 16px;
     left: 570px;
     width: 142px;
     height: 20px;
   }
-  .button21,
-  .button22,
-  .button23,
-  .button24 {
+  .button,
+  .button1,
+  .button2,
+  .button3 {
     cursor: pointer;
     border: 0;
     padding: 0;
     background-color: transparent;
     position: relative;
-    font-family: var(--font);
+    font-family: var(--h4);
     text-align: left;
   }
-  .button21 {
+  .button {
     font-weight: 700;
     color: var(--cta);
   }
-  .button22,
-  .button23,
-  .button24 {
+  .button1,
+  .button2,
+  .button3 {
     color: var(--color-black);
   }
-  .button23,
-  .button24 {
+  .button2,
+  .button3 {
     width: 74px;
     flex-shrink: 0;
   }
-  .button24 {
+  .button3 {
     width: 79px;
   }
-  .parent18 {
-    position: absolute;
+  .group {
     top: 16px;
     left: 228px;
     display: flex;
@@ -1037,104 +1112,107 @@
     justify-content: flex-start;
     gap: 20px;
   }
-  .parent17 {
+  .div,
+  .group,
+  .parent {
     position: absolute;
+  }
+  .parent {
     top: 13px;
     left: 9px;
     width: 752.4px;
     height: 52px;
     font-size: var(--font-size-base);
   }
-  .div80 {
-    position: absolute;
+  .div {
     top: 0;
     left: 0;
     width: 768px;
     height: 826px;
   }
-  .div89,
-  .div90 {
+  .div10,
+  .div9 {
     position: relative;
     letter-spacing: 0.02em;
     font-weight: 500;
   }
-  .div89 {
+  .div9 {
     line-height: 110%;
     z-index: 0;
   }
-  .div90 {
-    font-size: var(--font1-size);
+  .div10 {
+    font-size: var(--font-size);
     line-height: 140%;
-    font-family: var(--font);
+    font-family: var(--h4);
     color: var(--color-black);
     text-align: left;
   }
-  .button25 {
-    top: 12px;
-    left: 194px;
-    z-index: 0;
-  }
-  .button25,
-  .button26,
-  .button27,
-  .button28 {
+  .button4,
+  .button5,
+  .button6,
+  .button8 {
     cursor: pointer;
     border: 1px solid var(--color-black);
     padding: var(--padding-lgi) var(--padding-46xl);
     background-color: transparent;
-    margin: 0 !important;
+    margin: 0px;
     position: absolute;
+    top: 12px;
+    left: 194px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    z-index: 0;
   }
-  .button26 {
+  .button5,
+  .button6,
+  .button8 {
     top: 83px;
     left: 326px;
     z-index: 1;
   }
-  .button27 {
-    top: 83px;
+  .button6,
+  .button8 {
     left: 105px;
     z-index: 2;
   }
-  .button28 {
+  .button8 {
     top: 12px;
     left: 391px;
     z-index: 3;
   }
-  .div94 {
+  .div13 {
     position: relative;
-    font-size: var(--font1-size);
+    font-size: var(--font-size);
     letter-spacing: 0.02em;
     line-height: 140%;
     font-weight: 500;
-    font-family: var(--font);
+    font-family: var(--h4);
     color: var(--color-white);
     text-align: left;
   }
-  .button29,
-  .parent19 {
+  .button7,
+  .container {
     margin: 0 !important;
-    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
   }
-  .button29 {
+  .button7 {
     cursor: pointer;
     border: 0;
     padding: var(--padding-lgi) var(--padding-46xl);
     background-color: var(--color-black);
+    position: absolute;
     top: 12px;
     left: 8px;
     overflow: hidden;
     z-index: 4;
   }
-  .parent19 {
+  .container {
     top: 53px;
     left: 66px;
     width: 597px;
@@ -1143,23 +1221,26 @@
     gap: var(--gap-3xs);
     z-index: 1;
   }
-  .div95 {
+  .button9,
+  .container,
+  .div15 {
     position: absolute;
+  }
+  .div15 {
     top: calc(50% - 12px);
     left: calc(50% - 84px);
-    font-size: var(--font1-size);
+    font-size: var(--font-size);
     letter-spacing: 0.02em;
     line-height: 138.9%;
-    font-family: var(--font);
+    font-family: var(--h4);
     color: var(--cta);
     text-align: center;
   }
-  .button30 {
+  .button9 {
     cursor: pointer;
     border: 1px solid var(--cta);
     padding: 0;
     background-color: var(--color-white);
-    position: absolute;
     margin: 0 !important;
     top: 585px;
     left: 18px;
@@ -1170,15 +1251,15 @@
     overflow: hidden;
     z-index: 0;
   }
-  .button30:hover,
-  .button31,
-  .button31:hover,
-  .button32:hover {
+  .button10,
+  .button10:hover,
+  .button11:hover,
+  .button9:hover {
     background-color: var(--color-cadetblue-100);
     border: 1px solid var(--color-white);
     box-sizing: border-box;
   }
-  .button31 {
+  .button10 {
     cursor: pointer;
     border: 1px solid var(--cta);
     padding: 0;
@@ -1188,18 +1269,18 @@
     width: 268px;
     height: 72px;
     overflow: hidden;
-    z-index: 1;
+    z-index: 10 !important;
   }
-  .button31,
-  .button32,
-  .icon10,
-  .icon11,
-  .icon9 {
+  .button10,
+  .button11,
+  .icon1,
+  .icon2,
+  .icon3 {
     position: absolute;
     margin: 0 !important;
     flex-shrink: 0;
   }
-  .button32 {
+  .button11 {
     cursor: pointer;
     border: 1px solid var(--cta);
     padding: 0;
@@ -1212,40 +1293,39 @@
     overflow: hidden;
     z-index: 2;
   }
-  .icon10,
-  .icon11,
-  .icon9 {
-    object-fit: cover;
-  }
-  .icon9 {
+  .icon1,
+  .icon2,
+  .icon3 {
     top: 597px;
     left: 168px;
     width: 402px;
     height: 536px;
+    object-fit: cover;
     z-index: 0;
   }
-  .icon10 {
+  .icon2,
+  .icon3 {
     top: -1px;
     left: 430px;
     width: 284px;
     height: 488px;
     z-index: 1;
   }
-  .icon11 {
+  .icon3 {
     top: -0.5px;
     left: 0;
     width: 315px;
     height: 489px;
     z-index: 2;
   }
-  .div88,
-  .div98,
-  .parent20 {
+  .div18,
+  .div8,
+  .frame-div {
     flex-shrink: 0;
     display: flex;
     justify-content: flex-start;
   }
-  .div98 {
+  .div18 {
     margin: 0 !important;
     position: absolute;
     top: 75px;
@@ -1257,12 +1337,12 @@
     gap: var(--gap-11xl);
     z-index: 3;
   }
-  .div88,
-  .parent20 {
+  .div8,
+  .frame-div {
     width: 732px;
     flex-direction: column;
   }
-  .parent20 {
+  .frame-div {
     margin: 0 !important;
     position: absolute;
     top: 220px;
@@ -1272,62 +1352,62 @@
     gap: var(--gap-46xl);
     z-index: 2;
   }
-  .div88 {
+  .div8 {
     height: 1490px;
     align-items: flex-start;
     position: relative;
     gap: var(--gap-73xl);
     z-index: 0;
   }
-  .div100,
-  .div101,
-  .div99 {
+  .div19,
+  .div20,
+  .div21 {
     position: absolute;
     left: 0;
     letter-spacing: 0.02em;
     font-weight: 500;
   }
-  .div99 {
+  .div19 {
     top: 0;
     font-size: var(--h2-size);
     line-height: 110%;
   }
-  .div100,
-  .div101 {
+  .div20,
+  .div21 {
     width: 43.26%;
     top: 34.78%;
     line-height: 140%;
     display: inline-block;
   }
-  .div101 {
+  .div21 {
     top: 145px;
-    font-size: var(--font1-size);
+    font-size: var(--font-size);
     width: 305px;
     height: 115px;
   }
-  .frame-child3,
-  .parent22 {
+  .frame-child,
+  .parent2 {
     position: absolute;
     top: 4px;
     left: 0;
     width: 76px;
     height: 78px;
   }
-  .parent22 {
+  .parent2 {
     top: 72px;
     left: 372px;
     width: 335px;
     height: 276px;
     overflow: hidden;
   }
-  .frame-child4 {
+  .frame-item {
     position: absolute;
     top: 14px;
     left: 7px;
     width: 61px;
     height: 61px;
   }
-  .div102 {
+  .div22 {
     position: absolute;
     top: 35.29%;
     left: 0;
@@ -1335,42 +1415,40 @@
     line-height: 140%;
     font-weight: 500;
   }
-  .frame-parent4,
-  .frame-parent5 {
+  .frame-group,
+  .frame-parent {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 350px;
     height: 272px;
     overflow: hidden;
   }
-  .frame-parent5 {
-    top: 0;
-    left: 0;
-  }
-  .frame-parent4 {
+  .frame-parent {
     top: 76px;
     left: 11px;
     mix-blend-mode: normal;
   }
-  .frame-child5 {
+  .frame-inner {
     position: absolute;
     top: 12px;
     left: 7px;
     width: 63px;
     height: 63px;
   }
-  .frame-parent6,
-  .parent21 {
+  .frame-container,
+  .parent1 {
     position: absolute;
     overflow: hidden;
   }
-  .frame-parent6 {
+  .frame-container {
     top: 325px;
     left: 254px;
     width: 276px;
     height: 272px;
     mix-blend-mode: normal;
   }
-  .parent21 {
+  .parent1 {
     margin: 0 !important;
     top: 1540px;
     left: 0;
@@ -1381,8 +1459,8 @@
     z-index: 1;
     font-size: var(--h3-size);
   }
-  .div107,
-  .mega-sport-container2 {
+  .div27,
+  .mega-sport-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -1390,13 +1468,13 @@
     line-height: 140%;
     font-weight: 500;
   }
-  .mega-sport-container2 {
+  .mega-sport-container {
     top: 63px;
-    font-size: var(--font1-size);
+    font-size: var(--font-size);
     display: inline-block;
     width: 650px;
   }
-  .parent23 {
+  .parent3 {
     position: absolute;
     margin: 0 !important;
     top: 524px;
@@ -1407,7 +1485,7 @@
     z-index: 1;
     font-size: var(--h3-size);
   }
-  .sport2610-1-12 {
+  .sport2610-1-1 {
     position: relative;
     width: 655px;
     height: 369px;
@@ -1418,15 +1496,15 @@
     background-position: top;
     z-index: 2;
   }
-  .div106,
-  .div87 {
+  .div26,
+  .div7 {
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .div106 {
+  .div26 {
     margin: 0 !important;
     top: 2137px;
     left: -12px;
@@ -1434,7 +1512,7 @@
     gap: var(--gap-73xl);
     z-index: 2;
   }
-  .div87 {
+  .div7 {
     top: 845px;
     left: 19px;
     width: 739px;
@@ -1442,46 +1520,47 @@
     gap: 50px;
     font-size: var(--h2-size);
   }
-  .div108,
-  .div109 {
+  .div28,
+  .div29 {
     left: 4px;
-  }
-  .div108,
-  .div109,
-  .div110 {
-    position: absolute;
     letter-spacing: 0.02em;
     font-weight: 500;
   }
-  .div108 {
+  .div28 {
+    position: absolute;
     top: 0;
     font-size: var(--h2-size);
     line-height: 110%;
   }
-  .div109,
-  .div110 {
+  .div29 {
     top: 7px;
     line-height: 140%;
   }
-  .div110 {
+  .div29,
+  .div30,
+  .parent4 {
+    position: absolute;
+  }
+  .div30 {
     top: 5.69px;
     left: 95.22px;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 500;
     display: inline-block;
     width: 152px;
     height: 24px;
     transform: rotate(0.99deg);
     transform-origin: 0 0;
   }
-  .parent24 {
-    position: absolute;
+  .parent4 {
     top: 48px;
     left: 0;
     width: 322px;
     height: 40px;
     overflow: hidden;
   }
-  .elb00308gbstuby4 {
-    position: absolute;
+  .elb00308gbstuby {
     top: 7px;
     left: 95px;
     letter-spacing: 0.02em;
@@ -1491,227 +1570,44 @@
     width: 204px;
     height: 24px;
   }
-  .parent25 {
+  .div33,
+  .elb00308gbstuby,
+  .parent5 {
     position: absolute;
+  }
+  .parent5 {
     top: 79px;
     left: 0;
     width: 322px;
     height: 40px;
     overflow: hidden;
   }
-  .div113 {
-    position: absolute;
+  .div33 {
     top: 4px;
     left: 97px;
-    font-size: var(--font-size);
+    font-size: var(--h4-size);
     letter-spacing: 0.02em;
     line-height: 140%;
     font-weight: 500;
     display: inline-block;
     width: 308px;
   }
-  .contakts2,
-  .parent26 {
+  .contakts,
+  .parent6 {
     position: absolute;
-    overflow: hidden;
-  }
-  .parent26 {
     top: 110px;
     left: 0;
     width: 405px;
-    height: 40px;
+    height: 60px;
   }
-  .contakts2 {
+  .contakts {
     top: 3705px;
     left: 7px;
     width: 497px;
     height: 162px;
-    font-size: var(--font1-size);
-  }
-  .mega-sport11 {
-    position: relative;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-  .mega-sport-wrapper1 {
-    position: absolute;
-    top: 102px;
-    left: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: var(--font-size-base);
-  }
-  .a1 {
-    text-decoration: none;
-    position: relative;
-    letter-spacing: 0.02em;
-    line-height: 140%;
-    color: inherit;
-  }
-  .parent27 {
-    position: absolute;
-    top: 102px;
-    left: 602px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    gap: var(--gap-4xs);
-    font-size: var(--font-size-mini);
-  }
-  .div116 {
-    position: relative;
-    letter-spacing: 0.02em;
-    line-height: 140%;
-  }
-  .div115 {
-    position: absolute;
-    top: 238px;
-    left: 30px;
-    width: 204px;
-    height: 62px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-9xs);
-    font-size: var(--font-size-smi);
-  }
-  .vector-icon10,
-  .vector-icon8,
-  .vector-icon9 {
-    position: absolute;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .vector-icon8 {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .vector-icon9 {
-    height: 53.91%;
-    width: 53.91%;
-    top: 23.05%;
-    right: 23.05%;
-    bottom: 23.05%;
-    left: 23.05%;
-  }
-  .vector-icon10 {
-    height: 7.81%;
-    width: 7.81%;
-    top: 18.75%;
-    right: 18.75%;
-    bottom: 73.44%;
-    left: 73.44%;
-  }
-  .facebook-1-12,
-  .instagram-1-12 {
-    text-decoration: none;
-    position: relative;
-    flex-shrink: 0;
-    overflow: hidden;
-  }
-  .instagram-1-12 {
-    width: 22px;
-    height: 22px;
-  }
-  .facebook-1-12 {
-    width: 21px;
-    height: 21px;
-  }
-  .vector-icon12 {
-    position: absolute;
-    height: 81.25%;
-    width: 100%;
-    top: 9.38%;
-    right: 0;
-    bottom: 9.38%;
-    left: 0;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .twitter-1-12 {
-    text-decoration: none;
-    position: relative;
-    width: 23px;
-    height: 23px;
-    flex-shrink: 0;
-    overflow: hidden;
-  }
-  .div119 {
-    position: absolute;
-    top: 175px;
-    left: 603px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-xs);
-  }
-  .visa-mastercard-1-icon2 {
-    position: absolute;
-    top: 212px;
-    left: 602px;
-    width: 68px;
-    height: 22px;
-    object-fit: cover;
-  }
-  .github2 {
-    text-decoration: none;
-    top: calc(50% + 42.5px);
-    left: 78.39%;
-    line-height: 50px;
-    font-family: var(--font-inter);
-    color: var(--color-white);
-  }
-  .div114,
-  .figma4,
-  .github2 {
-    position: absolute;
-  }
-  .figma4 {
-    top: 256px;
-    left: 603px;
-    text-decoration: underline;
-    line-height: 50px;
-    font-family: var(--font-inter);
-    display: inline-block;
-    width: 112px;
-    height: 39px;
-  }
-  .div114 {
-    top: 3867px;
-    left: 5px;
-    background-color: var(--color-linen);
-    width: 768px;
-    height: 363px;
-    overflow: hidden;
     font-size: var(--font-size);
   }
-  .main-768 {
-    position: relative;
-    background-color: var(--color-white);
-    width: 100%;
-    height: 4230px;
-    overflow: hidden;
-    text-align: left;
-    font-size: var(--h1-size);
-    color: var(--color-black);
-    font-family: var(--font);
-  }  
-}
-
-@media screen and (max-width: 320px) {
-  .mega-sport {
+  .mega-sport3 {
     position: relative;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1734,10 +1630,10 @@
     line-height: 140%;
     color: inherit;
   }
-  .parent {
+  .parent7 {
     position: absolute;
-    top: 135px;
-    left: 30px;
+    top: 102px;
+    left: 602px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -1745,30 +1641,92 @@
     gap: var(--gap-4xs);
     font-size: var(--font-size-mini);
   }
-  .div2 {
+  .div36 {
     position: relative;
     letter-spacing: 0.02em;
     line-height: 140%;
   }
-  .div1 {
+  .div35 {
     position: absolute;
+    top: 238px;
+    left: 30px;
+    width: 204px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-smi);
+  }
+  .vector-icon1,
+  .vector-icon2,
+  .vector-icon3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
     right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon2,
+  .vector-icon3 {
+    height: 53.91%;
+    width: 53.91%;
+    top: 23.05%;
+    right: 23.05%;
+    bottom: 23.05%;
+    left: 23.05%;
+  }
+  .vector-icon3 {
+    height: 7.81%;
+    width: 7.81%;
+    top: 18.75%;
+    right: 18.75%;
+    bottom: 73.44%;
+    left: 73.44%;
+  }
+  .facebook-1-1,
+  .instagram-1-1 {
+    text-decoration: none;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .facebook-1-1 {
+    width: 21px;
+    height: 21px;
+  }
+  .vector-icon5 {
+    position: absolute;
+    height: 81.25%;
+    width: 100%;
+    top: 9.38%;
+    right: 0;
+    bottom: 9.38%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
   }
   .twitter-1-1 {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: transparent;
+    text-decoration: none;
     position: relative;
     width: 23px;
     height: 23px;
     flex-shrink: 0;
     overflow: hidden;
   }
-  .div5 {
+  .div39 {
     position: absolute;
-    top: 193px;
-    left: 30px;
+    top: 175px;
+    left: 603px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1777,27 +1735,28 @@
   }
   .visa-mastercard-1-icon {
     position: absolute;
-    top: 304px;
-    left: 31px;
+    top: 212px;
+    left: 602px;
     width: 68px;
     height: 22px;
     object-fit: cover;
   }
   .github {
-    top: calc(50% + 108.5px);
-    left: 34.38%;
+    text-decoration: none;
+    top: calc(50% + 42.5px);
+    left: 78.39%;
     line-height: 50px;
     font-family: var(--font-inter);
     color: var(--color-white);
   }
-  .div,
+  .div34,
   .figma,
   .github {
     position: absolute;
   }
   .figma {
-    top: 287px;
-    left: 182px;
+    top: 256px;
+    left: 603px;
     text-decoration: underline;
     line-height: 50px;
     font-family: var(--font-inter);
@@ -1805,138 +1764,201 @@
     width: 112px;
     height: 39px;
   }
-  .div {
-    top: 4995px;
-    left: -2px;
+  .div34 {
+    top: 3867px;
+    left: 5px;
     background-color: var(--color-linen);
-    width: 320px;
+    width: 768px;
     height: 363px;
     overflow: hidden;
+    font-size: var(--h4-size);
   }
-  .div6,
-  .div7,
-  .div8 {
-    letter-spacing: 0.02em;
-    font-weight: 500;
+  .main-768 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 4230px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--h1-size);
+    color: var(--color-black);
+    font-family: var(--h4);
+  }  
+}
+
+@media screen and (max-width: 320px) { 
+  .header___burger{
+    width: 40px;
+    height: 28px;
+    position: relative;
   }
-  .div6 {
+
+  .burger___line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: coral;
+    position: absolute;
+    right: 0;
+  }
+
+  .burger_line_first{
+    top: 0;
+  }
+
+  .burger_line_second{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .burger_line_third{
+    bottom: 0;
+  }
+
+  .vector-icon{
+    visibility: hidden;
+  }
+  .div7 {
+    top: 950px;
+    left: 0px;
+    width: 739px;
+    height: 2860px;
+    gap: 50px;
+    font-size: var(--h2-size);
+  }
+  .child {
     position: absolute;
     top: 0;
-    left: 4px;
-    font-size: var(--h2-size);
-    line-height: 110%;
+    left: 152px;
+    background-color: var(--color-linen);
+    width: 166px;
+    height: 952px;
   }
-  .div7,
-  .div8 {
-    position: relative;
-    line-height: 140%;
+  .p {
+    margin: 0;
   }
-  .div8 {
-    display: inline-block;
-    width: 152px;
-    height: 24px;
-    flex-shrink: 0;
-  }
-  .group {
+  .div1,
+  .div2 {
     position: absolute;
-    top: 48px;
-    left: 0;
-    width: 322px;
-    height: 40px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding-6xs) var(--padding-9xs);
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 18px;
-  }
-  .elb00308gbstuby1 {
-    position: relative;
     letter-spacing: 0.02em;
-    line-height: 140%;
-    font-weight: 500;
     display: inline-block;
-    width: 204px;
-    height: 24px;
-    flex-shrink: 0;
   }
-  .container {
+  .div1 {
+    top: 0;
+    left: 0;
+    line-height: 110%;
+    font-weight: 500;
+    width: 320px;
+  }
+  .div2 {
+    top: 255px;
+    left: 4px;
+    font-size: var(--h4-size);
+    line-height: 140%;
+    width: 312px;
+  }
+  .slide-1 {
     position: absolute;
     top: 79px;
     left: 0;
-    width: 322px;
-    height: 40px;
-    overflow: hidden;
+    width: 318.41px;
+    height: 558px;
+  }
+  .div45,
+  .photo-1094-1-icon {
+    position: absolute;
+    width: 280.6px;
+    height: 450px;
+  }
+  .photo-1094-1-icon {
+    top: 502px;
+    left: 20px;
+    object-fit: cover;
+  }
+  .div45 {
+    top: 502px;
+    left: 11.94px;
+  }
+  .mega-sport4 {
+    position: relative;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 158px;
+    height: 26px;
+    flex-shrink: 0;
+  }
+  .div5 {
+    top: 0;
+    left: 26px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-6xs) var(--padding-9xs);
-    box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
-    gap: 40px;
   }
-  .div10,
-  .div11 {
+  .div4,
+  .div5,
+  .icon {
     position: absolute;
-    top: 14px;
-    left: 4px;
-    letter-spacing: 0.02em;
-    line-height: 140%;
-    font-weight: 500;
   }
-  .div11 {
-    top: -2px;
-    left: 97px;
-    font-size: var(--font-size);
-    display: inline-block;
-    width: 206px;
-    height: 55px;
+  .icon {
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
   }
-  .contakts,
-  .frame-div {
-    position: absolute;
+  .div4 {
+    top: 17px;
+    left: 26px;
+    width: 184px;
+    height: 26px;
+  }
+  .div3 {
+    height: 52px;
     overflow: hidden;
   }
-  .frame-div {
-    top: 110px;
+  .div,
+  .div3,
+  .parent {
+    position: absolute;
+    top: 0;
     left: 0;
-    width: 405px;
-    height: 71px;
+    width: 320px;
   }
-  .contakts {
-    top: 4810px;
-    left: 1px;
-    width: 319px;
-    height: 185px;
-    font-size: var(--font1-size);
+  .parent {
+    height: 52px;
+    font-size: var(--font-size-base);
   }
-  .div13,
-  .div14,
-  .div15 {
+  .div {
+    height: 952px;
+  }
+  .div19,
+  .div20,
+  .div21 {
     position: absolute;
     left: 0;
     letter-spacing: 0.02em;
     font-weight: 500;
     display: inline-block;
   }
-  .div13 {
+  .div19 {
     top: 0;
     font-size: var(--h2-size);
     line-height: 110%;
     width: 313px;
     height: 81px;
   }
-  .div14,
-  .div15 {
+  .div20,
+  .div21 {
     width: 43.26%;
     top: 34.78%;
     line-height: 140%;
   }
-  .div15 {
+  .div21 {
     top: 145px;
-    font-size: var(--font1-size);
+    font-size: var(--font-size);
     width: 305px;
     height: 115px;
   }
@@ -1962,7 +1984,7 @@
     width: 61px;
     height: 61px;
   }
-  .div16 {
+  .div22 {
     position: absolute;
     top: 35.29%;
     left: 0;
@@ -1970,8 +1992,8 @@
     line-height: 140%;
     font-weight: 500;
   }
-  .frame-group,
-  .frame-parent {
+  .frame-parent,
+  .frame-group {
     position: absolute;
     top: 0;
     left: 0;
@@ -1985,67 +2007,59 @@
     width: 305px;
     mix-blend-mode: normal;
   }
-  .frame-inner {
+  .frame-inner,
+  .frame-container {
     position: absolute;
     top: 12px;
     left: 7px;
     width: 63px;
     height: 63px;
   }
-  .frame-container,
-  .parent1 {
-    position: absolute;
-    overflow: hidden;
-  }
   .frame-container {
     top: 384px;
     left: 8px;
     width: 309px;
     height: 272px;
+    overflow: hidden;
     mix-blend-mode: normal;
   }
+  .div9,
   .parent1 {
+    flex-shrink: 0;
+    z-index: 0;
+  }
+  .parent1 {
+    position: absolute;
     margin: 0 !important;
     top: 2313px;
     left: -3px;
     background-color: var(--color-white);
     width: 319px;
     height: 956px;
-    flex-shrink: 0;
-    z-index: 0;
+    overflow: hidden;
     font-size: var(--h3-size);
   }
-  .div21,
-  .mega-sport1 {
-    letter-spacing: 0.02em;
-    font-weight: 500;
-  }
-  .mega-sport1 {
+  .div9 {
     position: relative;
+    letter-spacing: 0.02em;
     line-height: 110%;
+    font-weight: 500;
     display: inline-block;
     width: 285px;
     height: 85px;
-    flex-shrink: 0;
-    z-index: 0;
   }
-  .div21 {
+  .div27,
+  .mega-sport-container {
     position: absolute;
     top: 0;
     left: 0;
-    line-height: 140%;
-  }
-  .p {
-    margin: 0;
-  }
-  .mega-sport-container {
-    position: absolute;
-    top: 63px;
-    left: 0;
-    font-size: var(--font1-size);
     letter-spacing: 0.02em;
     line-height: 140%;
     font-weight: 500;
+  }
+  .mega-sport-container {
+    top: 63px;
+    font-size: var(--font-size);
     display: inline-block;
     width: 255px;
   }
@@ -2057,7 +2071,7 @@
     z-index: 1;
     font-size: var(--h3-size);
   }
-  .div20,
+  .div26,
   .parent3,
   .sport2610-1-1 {
     margin: 0 !important;
@@ -2065,7 +2079,7 @@
     flex-shrink: 0;
   }
   .sport2610-1-1 {
-    top: 99px;
+    top: 150px;
     left: 2px;
     width: 317px;
     height: 190px;
@@ -2075,7 +2089,7 @@
     background-position: top;
     z-index: 2;
   }
-  .div20 {
+  .div26 {
     top: 3245px;
     left: -2px;
     width: 320px;
@@ -2087,9 +2101,9 @@
     gap: var(--gap-73xl);
     z-index: 1;
   }
-  .div23 {
+  .div10 {
     position: relative;
-    font-size: var(--font1-size);
+    font-size: var(--font-size);
     letter-spacing: 0.02em;
     line-height: 140%;
     font-weight: 500;
@@ -2097,20 +2111,17 @@
     color: var(--color-black);
     text-align: left;
   }
-  .button {
-    top: 339px;
-    z-index: 0;
-  }
-  .button,
-  .button1,
-  .button2,
-  .button3 {
+  .button8,
+  .button6,
+  .button5,
+  .button4 {
     cursor: pointer;
     border: 1px solid var(--color-black);
     padding: var(--padding-lgi) var(--padding-46xl);
     background-color: transparent;
     margin: 0 !important;
     position: absolute;
+    top: 339px;
     left: 65px;
     box-sizing: border-box;
     width: 185px;
@@ -2120,22 +2131,26 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    z-index: 0;
   }
-  .button1 {
+  .button8,
+  .button6,
+  .button4 {
     top: 254px;
     z-index: 1;
   }
-  .button2 {
+  .button8,
+  .button6 {
     top: 85px;
     z-index: 2;
   }
-  .button3 {
+  .button6 {
     top: 172px;
     z-index: 3;
   }
-  .div27 {
+  .div13 {
     position: relative;
-    font-size: var(--font1-size);
+    font-size: var(--font-size);
     letter-spacing: 0.02em;
     line-height: 140%;
     font-weight: 500;
@@ -2143,8 +2158,8 @@
     color: var(--color-white);
     text-align: left;
   }
-  .button4,
-  .parent4 {
+  .button7,
+  .container {
     margin: 0 !important;
     position: absolute;
     flex-shrink: 0;
@@ -2153,7 +2168,7 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .button4 {
+  .button7 {
     cursor: pointer;
     border: 0;
     padding: var(--padding-lgi) var(--padding-46xl);
@@ -2165,7 +2180,7 @@
     box-sizing: border-box;
     z-index: 4;
   }
-  .parent4 {
+  .container {
     top: 64px;
     left: 0;
     width: 319px;
@@ -2173,32 +2188,32 @@
     gap: var(--gap-3xs);
     z-index: 0;
   }
-  .div28 {
-    position: relative;
+  .div9,
+  .div15 {
     letter-spacing: 0.02em;
+  }
+  .div9 {
+    position: relative;
     line-height: 110%;
     font-weight: 500;
     z-index: 1;
   }
-  .button5,
-  .div29 {
+  .div15 {
     position: absolute;
-  }
-  .div29 {
     top: calc(50% - 12px);
     left: calc(50% - 84px);
-    font-size: var(--font1-size);
-    letter-spacing: 0.02em;
+    font-size: var(--font-size);
     line-height: 138.9%;
     font-family: var(--font);
     color: var(--cta);
     text-align: center;
   }
-  .button5 {
+  .button9 {
     cursor: pointer;
     border: 1px solid var(--cta);
     padding: 0;
     background-color: var(--color-white);
+    position: absolute;
     margin: 0 !important;
     top: 1736px;
     left: 25px;
@@ -2209,15 +2224,15 @@
     overflow: hidden;
     z-index: 0;
   }
-  .button5:hover,
-  .button6,
-  .button6:hover,
-  .button7:hover {
+  .button9:hover,
+  .button10,
+  .button10:hover,
+  .button11:hover {
     background-color: var(--color-cadetblue-100);
     border: 1px solid var(--color-white);
     box-sizing: border-box;
   }
-  .button6 {
+  .button10 {
     cursor: pointer;
     border: 1px solid var(--cta);
     padding: 0;
@@ -2229,16 +2244,16 @@
     overflow: hidden;
     z-index: 1;
   }
-  .button6,
-  .button7,
-  .icon,
+  .button10,
+  .button11,
   .icon1,
-  .icon2 {
+  .icon2,
+  .icon3 {
     position: absolute;
     margin: 0 !important;
     flex-shrink: 0;
   }
-  .button7 {
+  .button11 {
     cursor: pointer;
     border: 1px solid var(--cta);
     padding: 0;
@@ -2251,40 +2266,40 @@
     overflow: hidden;
     z-index: 2;
   }
-  .icon {
-    top: 674px;
-    z-index: 0;
-  }
-  .icon,
   .icon1,
-  .icon2 {
+  .icon2,
+  .icon3 {
+    top: 674px;
     left: 14px;
     width: 286px;
     height: 428px;
     object-fit: cover;
+    z-index: 0;
   }
-  .icon1 {
+  .icon2,
+  .icon3 {
     top: 1252px;
     z-index: 1;
   }
-  .icon2 {
+  .icon3 {
     top: 107px;
     z-index: 2;
   }
-  .div22,
-  .div32,
-  .parent5 {
-    flex-shrink: 0;
+  .div49,
+  .div8,
+  .div18,
+  .frame-div {
     display: flex;
     justify-content: flex-start;
   }
-  .div32 {
+  .div18 {
     margin: 0 !important;
     position: absolute;
     top: 29px;
     left: 4px;
     width: 315px;
     height: 1803px;
+    flex-shrink: 0;
     flex-direction: row;
     padding: 0 var(--padding-466xl) 0 0;
     box-sizing: border-box;
@@ -2292,163 +2307,441 @@
     gap: var(--gap-11xl);
     z-index: 3;
   }
-  .div22,
-  .parent5 {
-    width: 319px;
+  .div49,
+  .div8,
+  .frame-div {
     flex-direction: column;
-    z-index: 2;
   }
-  .parent5 {
+  .frame-div {
     margin: 0 !important;
     position: absolute;
     top: 481px;
     left: -3px;
+    width: 319px;
     height: 1832px;
+    flex-shrink: 0;
     align-items: center;
     gap: var(--gap-46xl);
+    z-index: 2;
   }
-  .div22 {
+  .div49,
+  .div8 {
+    align-items: flex-start;
+  }
+  .div8 {
+    top: 20px;
+    width: 319px;
     height: 2313px;
+    flex-shrink: 0;
     padding: 0 var(--padding-478xl) 0 0;
     box-sizing: border-box;
-    align-items: flex-start;
     position: relative;
     gap: var(--gap-73xl);
+    z-index: 2;
     margin-top: -1px;
   }
-  .child,
-  .div12 {
+  .div49 {
     position: absolute;
-  }
-  .div12 {
     top: 975px;
     left: 0;
     width: 320px;
     height: 3867px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
     font-size: var(--h2-size);
   }
-  .child {
-    top: 0;
-    left: 152px;
-    background-color: var(--color-linen);
-    width: 166px;
-    height: 952px;
-  }
-  .div34 {
-    top: 0;
-    left: 0;
+  .div28,
+  .div29,
+  .div30 {
     letter-spacing: 0.02em;
-    line-height: 110%;
     font-weight: 500;
-    display: inline-block;
-    width: 320px;
   }
-  .div34,
-  .div35,
-  .slide-1 {
+  .div28 {
     position: absolute;
-  }
-  .div35 {
-    top: 305px;
+    top: 0;
     left: 4px;
-    font-size: var(--font-size);
+    font-size: var(--h2-size);
+    line-height: 110%;
+  }
+  .div29,
+  .div30 {
+    position: relative;
+    line-height: 140%;
+  }
+  .div30 {
+    display: inline-block;
+    width: 152px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .parent4 {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 322px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-6xs) var(--padding-9xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+  }
+  .elb00308gbstuby {
+    position: relative;
     letter-spacing: 0.02em;
     line-height: 140%;
+    font-weight: 500;
     display: inline-block;
-    width: 312px;
+    width: 204px;
+    height: 24px;
+    flex-shrink: 0;
   }
-  .slide-1 {
+  .parent5 {
+    position: absolute;
     top: 79px;
     left: 0;
-    width: 318.41px;
-    height: 558px;
+    width: 322px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-6xs) var(--padding-9xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
   }
-  .div36,
-  .photo-1094-1-icon {
+  .div29,
+  .div33 {
     position: absolute;
-    width: 280.6px;
-    height: 450px;
+    top: 14px;
+    left: 4px;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 500;
   }
-  .photo-1094-1-icon {
-    top: 0;
+  .div33 {
+    top: -2px;
+    left: 97px;
+    font-size: 17px;
+    display: inline-block;
+    width: 206px;
+    height: 55px;
+  }
+  .contakts,
+  .parent14 {
+    position: absolute;
+    top: 110px;
     left: 0;
-    object-fit: cover;
+    width: 405px;
+    height: 71px;
+    overflow: hidden;
   }
-  .div36 {
-    top: 502px;
-    left: 11.94px;
+  .contakts {
+    top: 4810px;
+    left: 1px;
+    width: 319px;
+    height: 185px;
+    font-size: var(--font-size);
   }
   .mega-sport3 {
     position: relative;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 500;
-    display: inline-block;
-    width: 158px;
-    height: 26px;
-    flex-shrink: 0;
   }
-  .div39 {
-    top: 0;
-    left: 26px;
+  .mega-sport-wrapper {
+    position: absolute;
+    top: 102px;
+    left: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-  }
-  .div38,
-  .div39,
-  .icon3 {
-    position: absolute;
-  }
-  .icon3 {
-    top: 0;
-    left: 0;
-    width: 18px;
-    height: 18px;
-    object-fit: cover;
-  }
-  .div38 {
-    top: 17px;
-    left: 26px;
-    width: 184px;
-    height: 26px;
-  }
-  .div33,
-  .div37,
-  .frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 320px;
-  }
-  .div37,
-  .frame {
-    height: 52px;
-  }
-  .div37 {
-    overflow: hidden;
-  }
-  .frame {
     font-size: var(--font-size-base);
   }
-  .div33 {
-    height: 952px;
-    font-size: var(--h1-size);
+  .button12 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    color: inherit;
   }
-  .main-320 {
+  .parent7 {
+    position: absolute;
+    top: 135px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-4xs);
+    font-size: var(--font-size-mini);
+  }
+  .div36 {
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+  }
+  .div35 {
+    position: absolute;
+    top: 228px;
+    left: 30px;
+    width: 204px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-smi);
+  }
+  .vector-icon1,
+  .group-icon1,
+  .group-icon2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .group-icon1,
+  .group-icon2 {
+    height: 53.91%;
+    width: 53.91%;
+    top: 23.05%;
+    right: 23.05%;
+    bottom: 23.05%;
+    left: 23.05%;
+  }
+  .group-icon2 {
+    height: 7.81%;
+    width: 7.81%;
+    top: 18.75%;
+    right: 18.75%;
+    bottom: 73.44%;
+    left: 73.44%;
+  }
+  .facebook-1-1,
+  .instagram-1-1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .facebook-1-1 {
+    width: 21px;
+    height: 21px;
+  }
+  .vector-icon5 {
+    position: absolute;
+    height: 81.25%;
+    width: 100%;
+    top: 9.38%;
+    right: 0;
+    bottom: 9.38%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .twitter-1-1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .div39 {
+    position: absolute;
+    top: 193px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .visa-mastercard-1-icon {
+    position: absolute;
+    top: 304px;
+    left: 31px;
+    width: 68px;
+    height: 22px;
+    object-fit: cover;
+  }
+  .github {
+    top: calc(50% + 108.5px);
+    left: 34.38%;
+    line-height: 50px;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+  }
+  .div34,
+  .figma,
+  .github {
+    position: absolute;
+  }
+  .figma {
+    top: 287px;
+    left: 182px;
+    text-decoration: underline;
+    line-height: 50px;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 112px;
+    height: 39px;
+  }
+  .div34 {
+    top: 4995px;
+    left: -2px;
+    background-color: var(--color-linen);
+    width: 320px;
+    height: 363px;
+    overflow: hidden;
+    font-size: var(--h4-size);
+  }
+  .main-3201 {
     position: relative;
     background-color: var(--color-white);
     width: 100%;
     height: 5358px;
     overflow: hidden;
     text-align: left;
-    font-size: var(--font-size);
+    font-size: var(--h1-size);
     color: var(--color-black);
     font-family: var(--font);
-  }  
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .hamburger-menu{
+    visibility: visible;
+  }
+  .group{
+    visibility: hidden;
+  }
+  /* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: absolute;
+  top: 13px;
+  right: 8%;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 100;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  float: right;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: coral;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+/* элементы меню */
+.button1 {
+  display: block;
+
+  padding: 12px 24px;
+  color: #333;
+  left: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  left: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
 }
