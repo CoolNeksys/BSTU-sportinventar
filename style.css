@@ -1752,78 +1752,7 @@
   }
   .div1 {
     position: absolute;
-    top: 228px;
-    left: 30px;
-    width: 204px;
-    height: 62px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: var(--gap-9xs);
-    font-size: var(--font-size-smi);
-  }
-  .group-icon {
-    height: 100%;
-    width: 100%;
-    top: 0;
     right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .group-icon,
-  .group-icon1,
-  .group-icon2 {
-    position: absolute;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .group-icon1 {
-    height: 53.91%;
-    width: 53.91%;
-    top: 23.05%;
-    right: 23.05%;
-    bottom: 23.05%;
-    left: 23.05%;
-  }
-  .group-icon2 {
-    height: 7.81%;
-    width: 7.81%;
-    top: 18.75%;
-    right: 18.75%;
-    bottom: 73.44%;
-    left: 73.44%;
-  }
-  .facebook-1-1,
-  .instagram-1-1 {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: transparent;
-    position: relative;
-    flex-shrink: 0;
-    overflow: hidden;
-  }
-  .instagram-1-1 {
-    width: 22px;
-    height: 22px;
-  }
-  .facebook-1-1 {
-    width: 21px;
-    height: 21px;
-  }
-  .group-icon3 {
-    position: absolute;
-    height: 81.25%;
-    width: 100%;
-    top: 9.38%;
-    right: 0;
-    bottom: 9.38%;
-    left: 0;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
   }
   .twitter-1-1 {
     cursor: pointer;
