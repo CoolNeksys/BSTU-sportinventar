@@ -191,7 +191,7 @@
   text-align: left;
 }
 .button4 {
-  left: 613px;
+  left: 612px;
   z-index: 0;
 }
 .button4,
@@ -203,7 +203,7 @@
   background-color: transparent;
   margin: 0px;
   position: absolute;
-  top: 0;
+  top: -1px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -211,11 +211,11 @@
   justify-content: flex-start;
 }
 .button5 {
-  left: 812px;
+  left: 811px;
   z-index: 1;
 }
 .button6 {
-  left: 402px;
+  left: 401px;
   z-index: 2;
 }
 .div13 {
@@ -234,7 +234,7 @@
   padding: var(--padding-lgi) var(--padding-46xl);
   background-color: var(--color-black);
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   overflow: hidden;
   z-index: 3;
@@ -254,8 +254,8 @@
   padding: var(--padding-lgi) var(--padding-46xl);
   background-color: transparent;
   position: absolute;
-  top: 0;
-  left: 191px;
+  top: -1px;
+  left: 190px;
   overflow: hidden;
   z-index: 4;
 }
@@ -291,7 +291,7 @@
   background-color: var(--color-white);
   position: absolute;
   margin: 0 !important;
-  top: 530px;
+  top: 507px;
   left: 39px;
   box-sizing: border-box;
   width: 268px;
@@ -302,11 +302,11 @@
 }
 .button9 {
   margin: 0 !important;
-  left: 25px;
+  left: 28px;
   flex-shrink: 0;
 }
 .button10 {
-  left: 370px;
+  left: 367px;
   z-index: 1;
 }
 .button10:hover,
@@ -331,8 +331,8 @@
   border: 1px solid var(--cta);
   padding: 0;
   background-color: var(--color-white);
-  top: 530px;
-  left: 710px;
+  top: 507px;
+  left: 706px;
   box-sizing: border-box;
   width: 268px;
   height: 72px;
@@ -340,19 +340,19 @@
   z-index: 10 !important;
 }
 .icon1 {
-  top: 54px;
-  left: 707px;
+  top: 30px;
+  left: 706px;
   height: 428px;
   object-fit: cover;
   z-index: 0;
 }
 .icon1,
 .icon2 {
-  width: 286px;
+  width: 284px;
 }
 .icon2,
 .icon3 {
-  top: 54px;
+  top: 33px;
   height: 428px;
   object-fit: cover;
 }
@@ -361,7 +361,7 @@
   z-index: 1;
 }
 .icon3 {
-  left: 22px;
+  left: 20px;
   width: 287px;
   z-index: 2;
 }
@@ -552,7 +552,7 @@
   flex-shrink: 0;
 }
 .parent3 {
-  top: 150px;
+  top: 175px;
   left: 739px;
   width: 255px;
   height: 331px;
@@ -560,8 +560,8 @@
   font-size: var(--h3-size);
 }
 .sport2610-1-1 {
-  top: 150px;
-  left: 1px;
+  top: 153px;
+  left: 38px;
   width: 655px;
   height: 369px;
   background-image: url(./public/sport2610111@3x.png);
@@ -1099,8 +1099,8 @@
     background-color: transparent;
     margin: 0px;
     position: absolute;
-    top: 12px;
-    left: 194px;
+    top: 11px;
+    left: 193px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -1111,18 +1111,18 @@
   .button5,
   .button6,
   .button8 {
-    top: 83px;
-    left: 326px;
+    top: 82px;
+    left: 104px;
     z-index: 1;
   }
   .button6,
   .button8 {
-    left: 105px;
+    left: 325px;
     z-index: 2;
   }
   .button8 {
-    top: 12px;
-    left: 391px;
+    top: 11px;
+    left: 390px;
     z-index: 3;
   }
   .div13 {
@@ -1184,8 +1184,8 @@
     padding: 0;
     background-color: var(--color-white);
     margin: 0 !important;
-    top: 585px;
-    left: 5px;
+    top: 592px;
+    left: -8px;
     box-sizing: border-box;
     width: 268px;
     height: 72px;
@@ -1206,8 +1206,8 @@
     border: 1px solid var(--cta);
     padding: 0;
     background-color: var(--color-white);
-    top: 585px;
-    left: 420px;
+    top: 592px;
+    left: 406px;
     width: 268px;
     height: 72px;
     overflow: hidden;
@@ -1227,8 +1227,8 @@
     border: 1px solid var(--cta);
     padding: 0;
     background-color: var(--color-white);
-    top: 1234px;
-    left: 215px;
+    top: 1241px;
+    left: 206px;
     box-sizing: border-box;
     width: 268px;
     height: 72px;
@@ -1238,8 +1238,8 @@
   .icon1,
   .icon2,
   .icon3 {
-    top: 597px;
-    left: 168px;
+    top: 604px;
+    left: 158px;
     width: 402px;
     height: 536px;
     object-fit: cover;
@@ -1247,15 +1247,15 @@
   }
   .icon2,
   .icon3 {
-    top: -1px;
-    left: 430px;
+    top: 5px;
+    left: 420px;
     width: 284px;
     height: 488px;
     z-index: 1;
   }
   .icon3 {
-    top: -0.5px;
-    left: 0;
+    top: 8px;
+    left: -13px;
     width: 315px;
     height: 489px;
     z-index: 2;
@@ -2116,8 +2116,8 @@
     border: 0;
     padding: var(--padding-lgi) var(--padding-46xl);
     background-color: var(--color-black);
-    top: 0;
-    left: 65px;
+    top: 6px;
+    left: 55px;
     width: 185px;
     overflow: hidden;
     box-sizing: border-box;
@@ -2136,6 +2136,7 @@
     letter-spacing: 0.02em;
   }
   .div9 {
+    top: 6px;
     position: relative;
     line-height: 110%;
     font-weight: 500;
