@@ -6,10 +6,6 @@
   width: 526.95px;
   height: 826px;
 }
-
-.hamburger-menu{
-  visibility: hidden;
-}
 .p {
   margin: 0;
 }
@@ -82,7 +78,7 @@
 }
 .div4 {
   top: 17px;
-  left: 27px;
+  left: 26px;
   width: 184px;
   height: 26px;
 }
@@ -129,7 +125,7 @@
 }
 .div6 {
   position: absolute;
-  top: 14px;
+  top: 20px;
   left: 820px;
   width: 108.8px;
 }
@@ -151,44 +147,13 @@
   color: var(--color-black);
 }
 .group {
-  top: 14px;
+  top: 30px;
   left: 300px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   gap: 45px;
-}
-
-.header___burger{
-  display: none;
-  width: 40px;
-  height: 28px;
-  position: relative;
-  top: 20px;
-  left: 260px;
-}
-
-.burger___line{
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: coral;
-  position: absolute;
-  right: 0;
-}
-
-.burger_line_first{
-  top: 0;
-}
-
-.burger_line_second{
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.burger_line_third{
-  bottom: 0;
 }
 .div,
 .group,
@@ -208,10 +173,7 @@
   width: 1023.95px;
   height: 826px;
 }
-.winter,
-.spring,
-.summer,
-.autumn,
+.div10,
 .div9 {
   position: relative;
   letter-spacing: 0.02em;
@@ -221,38 +183,13 @@
   line-height: 110%;
   z-index: 0;
 }
-.winter {
+.div10 {
   font-size: var(--font-size);
   line-height: 140%;
   font-family: var(--h4);
   color: var(--color-black);
   text-align: left;
 }
-
-.spring {
-  font-size: var(--font-size);
-  line-height: 140%;
-  font-family: var(--h4);
-  color: var(--color-black);
-  text-align: left;
-}
-
-.summer {
-  font-size: var(--font-size);
-  line-height: 140%;
-  font-family: var(--h4);
-  color: var(--color-black);
-  text-align: left;
-}
-
-.autumn {
-  font-size: var(--font-size);
-  line-height: 140%;
-  font-family: var(--h4);
-  color: var(--color-black);
-  text-align: left;
-}
-
 .button4 {
   left: 613px;
   z-index: 0;
@@ -291,7 +228,7 @@
   color: var(--color-white);
   text-align: left;
 }
-.button8 {
+.button7 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-lgi) var(--padding-46xl);
@@ -311,7 +248,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.button7 {
+.button8 {
   cursor: pointer;
   border: 1px solid var(--color-black);
   padding: var(--padding-lgi) var(--padding-46xl);
@@ -365,11 +302,11 @@
 }
 .button9 {
   margin: 0 !important;
-  left: 39px;
+  left: 25px;
   flex-shrink: 0;
 }
 .button10 {
-  left: 378px;
+  left: 370px;
   z-index: 1;
 }
 .button10:hover,
@@ -395,7 +332,7 @@
   padding: 0;
   background-color: var(--color-white);
   top: 530px;
-  left: 717px;
+  left: 710px;
   box-sizing: border-box;
   width: 268px;
   height: 72px;
@@ -439,7 +376,7 @@
   margin: 0 !important;
   position: absolute;
   top: 29px;
-  left: 4px;
+  left:-5px;
   width: 1016px;
   height: 606px;
   flex-direction: row;
@@ -457,7 +394,7 @@
 .frame-div {
   margin: 0 !important;
   position: absolute;
-  top: 182px;
+  top: 100px;
   left: 0;
   height: 656px;
   align-items: center;
@@ -615,7 +552,7 @@
   flex-shrink: 0;
 }
 .parent3 {
-  top: 170px;
+  top: 150px;
   left: 739px;
   width: 255px;
   height: 331px;
@@ -918,7 +855,7 @@
 }
 .div34 {
   top: 2933px;
-  left: 0;
+  left: 0px;
   background-color: var(--color-linen);
   width: 1024px;
   height: 363px;
@@ -936,6 +873,11 @@
   color: var(--color-black);
   font-family: var(--h4);
 }
+
+.hamburger-menu{
+  visibility: hidden;
+}
+
 
 @media screen and (max-width: 768px) {
   .hamburger-menu{
@@ -1069,7 +1011,7 @@
   }
   .div6 {
     position: absolute;
-    top: 16px;
+    top: 30px;
     left: 570px;
     width: 142px;
     height: 20px;
@@ -1104,7 +1046,7 @@
     width: 79px;
   }
   .group {
-    top: 16px;
+    top: 30px;
     left: 228px;
     display: flex;
     flex-direction: row;
@@ -1243,7 +1185,7 @@
     background-color: var(--color-white);
     margin: 0 !important;
     top: 585px;
-    left: 18px;
+    left: 5px;
     box-sizing: border-box;
     width: 268px;
     height: 72px;
@@ -1265,7 +1207,7 @@
     padding: 0;
     background-color: var(--color-white);
     top: 585px;
-    left: 432px;
+    left: 420px;
     width: 268px;
     height: 72px;
     overflow: hidden;
@@ -1286,7 +1228,7 @@
     padding: 0;
     background-color: var(--color-white);
     top: 1234px;
-    left: 232px;
+    left: 215px;
     box-sizing: border-box;
     width: 268px;
     height: 72px;
@@ -1329,7 +1271,7 @@
     margin: 0 !important;
     position: absolute;
     top: 75px;
-    left: -6px;
+    left: -20px;
     width: 738px;
     height: 488px;
     flex-direction: row;
@@ -1345,8 +1287,8 @@
   .frame-div {
     margin: 0 !important;
     position: absolute;
-    top: 220px;
-    left: 0;
+    top: 160px;
+    left: -40px;
     height: 1306px;
     align-items: center;
     gap: var(--gap-46xl);
@@ -1487,6 +1429,7 @@
   }
   .sport2610-1-1 {
     position: relative;
+    top: 0px;
     width: 655px;
     height: 369px;
     flex-shrink: 0;
@@ -1766,7 +1709,7 @@
   }
   .div34 {
     top: 3867px;
-    left: 5px;
+    left: 0px;
     background-color: var(--color-linen);
     width: 768px;
     height: 363px;
@@ -2109,7 +2052,7 @@
     font-weight: 500;
     font-family: var(--font);
     color: var(--color-black);
-    text-align: left;
+    text-align: center;
   }
   .button8,
   .button6,
@@ -2156,7 +2099,7 @@
     font-weight: 500;
     font-family: var(--font);
     color: var(--color-white);
-    text-align: left;
+    text-align: center;
   }
   .button7,
   .container {
@@ -2182,7 +2125,7 @@
   }
   .container {
     top: 64px;
-    left: 0;
+    left: -10px;
     width: 319px;
     height: 417px;
     gap: var(--gap-3xs);
@@ -2215,8 +2158,8 @@
     background-color: var(--color-white);
     position: absolute;
     margin: 0 !important;
-    top: 1736px;
-    left: 25px;
+    top: 1636px;
+    left: 38px;
     box-sizing: border-box;
     width: 268px;
     height: 72px;
@@ -2237,8 +2180,8 @@
     border: 1px solid var(--cta);
     padding: 0;
     background-color: var(--color-white);
-    top: 1158px;
-    left: 27px;
+    top: 1058px;
+    left: 37px;
     width: 268px;
     height: 72px;
     overflow: hidden;
@@ -2258,8 +2201,8 @@
     border: 1px solid var(--cta);
     padding: 0;
     background-color: var(--color-white);
-    top: 598px;
-    left: 28px;
+    top: 498px;
+    left: 38px;
     box-sizing: border-box;
     width: 268px;
     height: 72px;
@@ -2295,8 +2238,8 @@
   .div18 {
     margin: 0 !important;
     position: absolute;
-    top: 29px;
-    left: 4px;
+    top: -70px;
+    left: 15px;
     width: 315px;
     height: 1803px;
     flex-shrink: 0;
