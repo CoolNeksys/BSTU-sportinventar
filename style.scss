@@ -19,17 +19,18 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-}
-.photo__buttons .button {
-  color: #000;
-  border: 2px solid #000;
-  padding: 20px 40px;
-}
-.photo__buttons .button:hover {
-  cursor: pointer;
-  color: #fff;
-  border: 2px solid #000;
-  background-color: #000;
+  
+  .button {
+    color: #000;
+    border: 2px solid #000;
+    padding: 20px 40px;
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+      border: 2px solid #000;
+      background-color: #000;
+    }
+  }
 }
 
 .button_color {
@@ -58,10 +59,11 @@
   gap: 30px;
   width: 100%;
   justify-content: space-around;
-}
-.photo__image img {
-  width: 250px;
-  height: 300px;
+  
+  img {
+    width: 250px;
+    height: 300px;
+  }
 }
 
 .arrows {
@@ -73,9 +75,10 @@
   top: calc(50% - 10px);
   opacity: 0;
   transition: all 2s;
-}
-.slider:hover + .arrows, .arrows:hover {
-  opacity: 1;
+
+  .slider:hover + &, &:hover {
+    opacity: 1;
+  }
 }
 
 .move_left {
@@ -83,27 +86,35 @@
   animation-duration: 2s;
 }
 
-@keyframes move_left {
-  0% {
+@keyframes move_left { 
+  0% { 
     left: -100%;
-  }
+  } 
   100% {
     left: -200%;
-  }
+  } 
 }
+
 .move_right {
   animation-name: move_right;
   animation-duration: 2s;
 }
 
-@keyframes move_right {
-  0% {
+@keyframes move_right { 
+  0% { 
     left: -100%;
-  }
+  } 
   100% {
     left: 0%;
-  }
+  } 
 }
+
+
+
+
+
+
+
 .child {
   position: absolute;
   top: 0;
@@ -112,15 +123,12 @@
   width: 526.95px;
   height: 826px;
 }
-
 .p {
   margin: 0;
 }
-
-nav {
+nav{
   display: none;
 }
-
 .div1 {
   top: 0;
   left: 15px;
@@ -130,13 +138,11 @@ nav {
   display: inline-block;
   width: 556px;
 }
-
 .div1,
 .div2,
 .slide-1 {
   position: absolute;
 }
-
 .div2 {
   top: 167px;
   left: 15px;
@@ -146,24 +152,20 @@ nav {
   display: inline-block;
   width: 385px;
 }
-
 .slide-1 {
   top: 265px;
   left: 0;
   width: 562px;
   height: 385px;
 }
-
 .photo-1094-1-icon {
   position: absolute;
   top: 130px;
   left: 574px;
   width: 425.2px;
   height: 667px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .mega-sport {
   position: relative;
   letter-spacing: 0.1em;
@@ -174,7 +176,6 @@ nav {
   height: 26px;
   flex-shrink: 0;
 }
-
 .div5 {
   top: 0;
   left: 26px;
@@ -183,29 +184,24 @@ nav {
   align-items: center;
   justify-content: flex-start;
 }
-
 .div4,
 .div5,
 .icon {
   position: absolute;
 }
-
 .icon {
   top: 0;
   left: 0;
   width: 18px;
   height: 18px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .div4 {
   top: 17px;
   left: 26px;
   width: 184px;
   height: 26px;
 }
-
 .vector-icon {
   height: 75.94%;
   width: 61.94%;
@@ -217,14 +213,12 @@ nav {
   max-height: 100%;
   cursor: pointer;
 }
-
 .div3,
 .vector-icon,
 .vector-wrapper {
   position: absolute;
   overflow: hidden;
 }
-
 .vector-wrapper {
   cursor: pointer;
   border: 0;
@@ -235,14 +229,12 @@ nav {
   width: 31px;
   height: 31px;
 }
-
 .div3 {
   top: 0;
   left: 0;
   width: 1003.2px;
   height: 52px;
 }
-
 .button,
 .button1,
 .div6 {
@@ -251,14 +243,12 @@ nav {
   line-height: 140%;
   display: inline-block;
 }
-
 .div6 {
   position: absolute;
   top: 14px;
   left: 820px;
   width: 108.8px;
 }
-
 .button,
 .button1 {
   cursor: pointer;
@@ -269,16 +259,13 @@ nav {
   font-family: var(--h4);
   text-align: left;
 }
-
 .button {
   font-weight: 700;
   color: var(--cta);
 }
-
 .button1 {
   color: var(--color-black);
 }
-
 .group {
   top: 14px;
   left: 300px;
@@ -288,13 +275,11 @@ nav {
   justify-content: flex-start;
   gap: 45px;
 }
-
 .div,
 .group,
 .parent {
   position: absolute;
 }
-
 .parent {
   top: 13px;
   left: 12px;
@@ -302,26 +287,22 @@ nav {
   height: 56px;
   font-size: var(--font-size-base);
 }
-
 .div {
   top: 0;
   left: 0;
   width: 1023.95px;
   height: 826px;
 }
-
 .div10,
 .div9 {
   position: relative;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-
 .div9 {
   line-height: 110%;
   z-index: 0;
 }
-
 .div10 {
   font-size: var(--font-size);
   line-height: 140%;
@@ -329,12 +310,10 @@ nav {
   color: var(--color-black);
   text-align: left;
 }
-
 .button4 {
   left: 613px;
   z-index: 0;
 }
-
 .button4,
 .button5,
 .button6 {
@@ -351,17 +330,14 @@ nav {
   align-items: center;
   justify-content: flex-start;
 }
-
 .button5 {
   left: 812px;
   z-index: 1;
 }
-
 .button6 {
   left: 402px;
   z-index: 2;
 }
-
 .div13 {
   position: relative;
   font-size: var(--font-size);
@@ -372,7 +348,6 @@ nav {
   color: var(--color-white);
   text-align: left;
 }
-
 .button7 {
   cursor: pointer;
   border: 0;
@@ -384,7 +359,6 @@ nav {
   overflow: hidden;
   z-index: 3;
 }
-
 .button7,
 .button8,
 .container {
@@ -394,7 +368,6 @@ nav {
   align-items: center;
   justify-content: flex-start;
 }
-
 .button8 {
   cursor: pointer;
   border: 1px solid var(--color-black);
@@ -406,7 +379,6 @@ nav {
   overflow: hidden;
   z-index: 4;
 }
-
 .container {
   top: 105px;
   left: 11px;
@@ -414,13 +386,11 @@ nav {
   gap: var(--gap-3xs);
   z-index: 1;
 }
-
 .button9,
 .container,
 .div15 {
   position: absolute;
 }
-
 .div15 {
   top: calc(50% - 12px);
   left: calc(50% - 84px);
@@ -432,7 +402,6 @@ nav {
   text-align: center;
   z-index: 10 !important;
 }
-
 .button10,
 .button9 {
   box-sizing: border-box;
@@ -451,18 +420,15 @@ nav {
   overflow: hidden;
   z-index: 10 !important;
 }
-
 .button9 {
   margin: 0 !important;
   left: 39px;
   flex-shrink: 0;
 }
-
 .button10 {
   left: 378px;
   z-index: 1;
 }
-
 .button10:hover,
 .button11:hover,
 .button9:hover {
@@ -471,7 +437,6 @@ nav {
   box-sizing: border-box;
   color: #fff;
 }
-
 .button10,
 .button11,
 .icon1,
@@ -481,7 +446,6 @@ nav {
   margin: 0 !important;
   flex-shrink: 0;
 }
-
 .button11 {
   cursor: pointer;
   border: 1px solid var(--cta);
@@ -495,40 +459,32 @@ nav {
   overflow: hidden;
   z-index: 10 !important;
 }
-
 .icon1 {
   top: 54px;
   left: 707px;
   height: 428px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: 0;
 }
-
 .icon1,
 .icon2 {
   width: 286px;
 }
-
 .icon2,
 .icon3 {
   top: 54px;
   height: 428px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .icon2 {
   left: 365px;
   z-index: 1;
 }
-
 .icon3 {
   left: 22px;
   width: 287px;
   z-index: 2;
 }
-
 .div18,
 .div8,
 .frame-div {
@@ -536,7 +492,6 @@ nav {
   display: flex;
   justify-content: flex-start;
 }
-
 .div18 {
   margin: 0 !important;
   position: absolute;
@@ -551,13 +506,11 @@ nav {
   gap: var(--gap-11xl);
   z-index: 3;
 }
-
 .div8,
 .frame-div {
   width: 1024px;
   flex-direction: column;
 }
-
 .frame-div {
   margin: 0 !important;
   position: absolute;
@@ -568,7 +521,6 @@ nav {
   gap: var(--gap-46xl);
   z-index: 2;
 }
-
 .div8 {
   height: 885px;
   padding: 0 var(--padding-478xl) 0 0;
@@ -578,7 +530,6 @@ nav {
   gap: var(--gap-73xl);
   z-index: 0;
 }
-
 .div19,
 .div20,
 .div21 {
@@ -587,13 +538,11 @@ nav {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-
 .div19 {
   top: 0;
   font-size: var(--h2-size);
   line-height: 110%;
 }
-
 .div20,
 .div21 {
   width: 43.26%;
@@ -601,14 +550,12 @@ nav {
   line-height: 140%;
   display: inline-block;
 }
-
 .div21 {
   top: 145px;
   font-size: var(--font-size);
   width: 305px;
   height: 115px;
 }
-
 .frame-child,
 .parent2 {
   position: absolute;
@@ -617,7 +564,6 @@ nav {
   width: 76px;
   height: 78px;
 }
-
 .parent2 {
   top: 116px;
   left: 372px;
@@ -625,7 +571,6 @@ nav {
   height: 276px;
   overflow: hidden;
 }
-
 .frame-item {
   position: absolute;
   top: 14px;
@@ -633,7 +578,6 @@ nav {
   width: 61px;
   height: 61px;
 }
-
 .div22 {
   position: absolute;
   width: 40.22%;
@@ -644,7 +588,6 @@ nav {
   font-weight: 500;
   display: inline-block;
 }
-
 .frame-group,
 .frame-parent {
   position: absolute;
@@ -654,34 +597,29 @@ nav {
   height: 272px;
   overflow: hidden;
 }
-
 .frame-parent {
   top: 118px;
   left: 36px;
   width: 277px;
   mix-blend-mode: normal;
 }
-
 .div24,
 .wrapper {
   position: absolute;
   left: 0;
 }
-
 .div24 {
   top: 35.29%;
   letter-spacing: 0.02em;
   line-height: 140%;
   font-weight: 500;
 }
-
 .wrapper {
   top: 0;
   width: 350px;
   height: 272px;
   overflow: hidden;
 }
-
 .frame-inner {
   position: absolute;
   top: 12px;
@@ -689,13 +627,11 @@ nav {
   width: 63px;
   height: 63px;
 }
-
 .frame-container,
 .parent1 {
   position: absolute;
   overflow: hidden;
 }
-
 .frame-container {
   top: 118px;
   left: 721px;
@@ -703,7 +639,6 @@ nav {
   height: 272px;
   mix-blend-mode: normal;
 }
-
 .parent1 {
   margin: 0 !important;
   top: 885px;
@@ -715,7 +650,6 @@ nav {
   z-index: 1;
   font-size: var(--h3-size);
 }
-
 .div27,
 .mega-sport-container {
   position: absolute;
@@ -725,21 +659,18 @@ nav {
   line-height: 140%;
   font-weight: 500;
 }
-
 .mega-sport-container {
   top: 63px;
   font-size: var(--font-size);
   display: inline-block;
   width: 255px;
 }
-
 .parent3,
 .sport2610-1-1 {
   position: absolute;
   margin: 0 !important;
   flex-shrink: 0;
 }
-
 .parent3 {
   top: 20px;
   left: 739px;
@@ -748,7 +679,6 @@ nav {
   z-index: 1;
   font-size: var(--h3-size);
 }
-
 .sport2610-1-1 {
   top: 0px;
   left: 1px;
@@ -760,7 +690,6 @@ nav {
   background-position: top;
   z-index: 2;
 }
-
 .div26,
 .div7 {
   position: absolute;
@@ -769,7 +698,6 @@ nav {
   align-items: flex-start;
   justify-content: flex-start;
 }
-
 .div26 {
   margin: 0 !important;
   top: 1279px;
@@ -780,7 +708,6 @@ nav {
   gap: var(--gap-73xl);
   z-index: 2;
 }
-
 .div7 {
   top: 869px;
   left: 0;
@@ -788,32 +715,27 @@ nav {
   height: 1803px;
   font-size: var(--h2-size);
 }
-
 .div28,
 .div29 {
   left: 4px;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-
 .div28 {
   position: absolute;
   top: 0;
   font-size: var(--h2-size);
   line-height: 110%;
 }
-
 .div29 {
   top: 7px;
   line-height: 140%;
 }
-
 .div29,
 .div30,
 .parent4 {
   position: absolute;
 }
-
 .div30 {
   top: 7px;
   left: 95px;
@@ -824,7 +746,6 @@ nav {
   width: 152px;
   height: 24px;
 }
-
 .parent4 {
   top: 48px;
   left: 0;
@@ -832,7 +753,6 @@ nav {
   height: 40px;
   overflow: hidden;
 }
-
 .elb00308gbstuby {
   top: 7px;
   left: 95px;
@@ -843,13 +763,11 @@ nav {
   width: 204px;
   height: 24px;
 }
-
 .div33,
 .elb00308gbstuby,
 .parent5 {
   position: absolute;
 }
-
 .parent5 {
   top: 79px;
   left: 0;
@@ -857,7 +775,6 @@ nav {
   height: 40px;
   overflow: hidden;
 }
-
 .div33 {
   top: 4px;
   left: 97px;
@@ -868,34 +785,29 @@ nav {
   display: inline-block;
   width: 308px;
 }
-
 .contakts,
 .parent6 {
   position: absolute;
   left: 0;
   overflow: hidden;
 }
-
 .parent6 {
   top: 110px;
   width: 405px;
   height: 40px;
 }
-
 .contakts {
   top: 2763px;
   width: 497px;
   height: 162px;
   font-size: var(--font-size);
 }
-
 .mega-sport3 {
   position: relative;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 500;
 }
-
 .mega-sport-wrapper {
   position: absolute;
   top: 104px;
@@ -906,7 +818,6 @@ nav {
   justify-content: flex-start;
   font-size: var(--font-size-base);
 }
-
 .button12 {
   cursor: pointer;
   border: 0;
@@ -922,7 +833,6 @@ nav {
   display: inline-block;
   width: 147px;
 }
-
 .parent7 {
   position: absolute;
   top: 105px;
@@ -933,13 +843,11 @@ nav {
   justify-content: flex-start;
   gap: var(--gap-4xs);
 }
-
 .div36 {
   position: relative;
   letter-spacing: 0.02em;
   line-height: 140%;
 }
-
 .div35 {
   position: absolute;
   top: 201px;
@@ -951,7 +859,6 @@ nav {
   gap: 6px;
   font-size: var(--font-size-smi);
 }
-
 .vector-icon1 {
   height: 100%;
   width: 100%;
@@ -960,7 +867,6 @@ nav {
   bottom: 0;
   left: 0;
 }
-
 .vector-icon1,
 .vector-icon2,
 .vector-icon3 {
@@ -969,7 +875,6 @@ nav {
   overflow: hidden;
   max-height: 100%;
 }
-
 .vector-icon2 {
   height: 53.91%;
   width: 53.91%;
@@ -978,7 +883,6 @@ nav {
   bottom: 23.05%;
   left: 23.05%;
 }
-
 .vector-icon3 {
   height: 7.81%;
   width: 7.81%;
@@ -987,7 +891,6 @@ nav {
   bottom: 73.44%;
   left: 73.44%;
 }
-
 .facebook-1-1,
 .instagram-1-1 {
   cursor: pointer;
@@ -998,17 +901,14 @@ nav {
   flex-shrink: 0;
   overflow: hidden;
 }
-
 .instagram-1-1 {
   width: 22px;
   height: 22px;
 }
-
 .facebook-1-1 {
   width: 21px;
   height: 21px;
 }
-
 .vector-icon5 {
   position: absolute;
   height: 81.25%;
@@ -1021,7 +921,6 @@ nav {
   overflow: hidden;
   max-height: 100%;
 }
-
 .twitter-1-1 {
   cursor: pointer;
   border: 0;
@@ -1033,7 +932,6 @@ nav {
   flex-shrink: 0;
   overflow: hidden;
 }
-
 .div39 {
   position: absolute;
   top: 178px;
@@ -1044,17 +942,14 @@ nav {
   justify-content: flex-start;
   gap: var(--gap-xs);
 }
-
 .visa-mastercard-1-icon {
   position: absolute;
   top: 221px;
   left: 869px;
   width: 68px;
   height: 22px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .github {
   text-decoration: none;
   top: calc(50% + 57.5px);
@@ -1063,13 +958,11 @@ nav {
   font-family: var(--font-inter);
   color: var(--color-white);
 }
-
 .div34,
 .figma,
 .github {
   position: absolute;
 }
-
 .figma {
   top: 271px;
   left: 869px;
@@ -1080,7 +973,6 @@ nav {
   width: 112px;
   height: 39px;
 }
-
 .div34 {
   top: 2933px;
   left: 0;
@@ -1090,7 +982,6 @@ nav {
   overflow: hidden;
   font-size: var(--h4-size);
 }
-
 .main-1024 {
   position: relative;
   background-color: var(--color-white);
@@ -1104,7 +995,7 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  .photo {
+  .photo{
     max-width: 768px;
   }
   .child {
@@ -1153,8 +1044,7 @@ nav {
     left: 372px;
     width: 389.4px;
     height: 667px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .mega-sport {
     position: relative;
@@ -1184,8 +1074,7 @@ nav {
     top: 0;
     width: 18px;
     height: 18px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .div4 {
     top: 17px;
@@ -1468,8 +1357,7 @@ nav {
     left: 168px;
     width: 402px;
     height: 536px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     z-index: 0;
   }
   .icon2,
@@ -1908,8 +1796,7 @@ nav {
     left: 602px;
     width: 68px;
     height: 22px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .github {
     text-decoration: none;
@@ -1953,27 +1840,28 @@ nav {
     font-size: var(--h1-size);
     color: var(--color-black);
     font-family: var(--h4);
-  }
+  }  
 }
-@media screen and (max-width: 320px) {
-  .photo {
+
+@media screen and (max-width: 320px) { 
+  .photo{
     max-width: 320px;
     margin: 0px;
     overflow-y: hidden;
   }
-  .containerp {
+  .containerp{
     width: 320px;
     height: 700px;
   }
-  .photo__slider {
+  .photo__slider{
     overflow-y: hidden;
   }
-  .photo__buttons {
+  .photo__buttons{
     padding: 10px;
     display: block;
     width: 100%;
   }
-  .button {
+  .button{
     margin: 10px;
   }
   .div7 {
@@ -2031,8 +1919,7 @@ nav {
   .photo-1094-1-icon {
     top: 450px;
     left: 0;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .div45 {
     top: 502px;
@@ -2066,8 +1953,7 @@ nav {
     left: 0;
     width: 18px;
     height: 18px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .div4 {
     top: 17px;
@@ -2433,8 +2319,7 @@ nav {
     left: 14px;
     width: 286px;
     height: 428px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     z-index: 0;
   }
   .icon2,
@@ -2743,8 +2628,7 @@ nav {
     left: 31px;
     width: 68px;
     height: 22px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .github {
     top: calc(50% + 108.5px);
@@ -2788,56 +2672,66 @@ nav {
     color: var(--color-black);
     font-family: var(--font);
   }
-  .menu-btn {
+  .menu-btn{
     left: 280px !important;
   }
-  .menu__box {
+  .menu__box{
     width: 260px !important;
   }
 }
+
 @media screen and (max-width: 767.5px) {
-  .group {
+  .group{
     visibility: hidden;
   }
   nav {
     display: flex;
     position: relative;
+  
+    .menu__box {
+      display: flex;
+      gap: 20px;
+        position: fixed;
+        visibility: hidden;
+        flex-direction: column;
+        top: 0px;
+        right: -400px;
+  
+        width: 300px;
+        height: 100%;
+  
+        margin: 0;
+        padding: 80px 40px;
+  
+        background-color: #ECEFF1;
+        box-shadow: 1px 0px 10px rgba(0, 0, 0, .2);
+  
+        transition-duration: 3s;
+        z-index: 1000;
+  
+      li {
+        list-style-type: none;
+    
+        a {
+          text-decoration: none;
+        }
+      }
+    }
   }
-  nav .menu__box {
-    display: flex;
-    gap: 20px;
-    position: fixed;
-    visibility: hidden;
-    flex-direction: column;
-    top: 0px;
-    right: -400px;
-    width: 300px;
-    height: 100%;
-    margin: 0;
-    padding: 80px 40px;
-    background-color: #ECEFF1;
-    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
-    transition-duration: 3s;
-    z-index: 1000;
-  }
-  nav .menu__box li {
-    list-style-type: none;
-  }
-  nav .menu__box li a {
-    text-decoration: none;
-  }
-  .menu-btn {
+  
+  .menu-btn{
     display: flex;
     align-items: center;
     position: absolute;
     top: 15px;
-    right: 0;
+    right:0;
     left: 525px;
     width: 26px;
     height: 26px;
     cursor: pointer;
     z-index: 1001;
   }
+   
   .menu-btn > span,
   .menu-btn > span::before,
   .menu-btn > span::after {
@@ -2846,38 +2740,47 @@ nav {
     width: 100%;
     height: 2px;
     background-color: #616161;
-    transition-duration: 0.25s;
+    transition-duration: .25s;
   }
+  
   .menu-btn > span::before {
-    content: "";
+    content: '';
     top: -8px;
   }
+  
   .menu-btn > span::after {
-    content: "";
+    content: '';
     top: 8px;
   }
-  #menu-toggle {
+  
+  #menu-toggle{
     opacity: 0;
   }
-  #menu-toggle:checked ~ .menu-btn > span {
+   
+  #menu-toggle:checked ~ .menu-btn > span{
     transform: rotate(45deg);
   }
-  #menu-toggle:checked ~ .menu-btn > span::before {
+  
+  #menu-toggle:checked ~ .menu-btn > span::before{
     top: 0;
     transform: rotate(0);
   }
-  #menu-toggle:checked ~ .menu-btn > span::after {
+  
+  #menu-toggle:checked ~ .menu-btn > span::after{
     top: 0;
     transform: rotate(90deg);
   }
+  
   #menu-toggle:checked ~ .menu__box {
     visibility: visible;
     right: 0px;
   }
+  
   .menu__item:hover {
     background-color: #CFD8DC;
   }
 }
-.div8 {
+
+.div8{
   width: 1024px;
-}/*# sourceMappingURL=style.css.map */
+}
