@@ -1,0 +1,1466 @@
+.child,
+.div1 {
+  position: absolute;
+  top: 269px;
+  left: 3px;
+}
+.div1 {
+  top: 89px;
+  left: -1px;
+  letter-spacing: 0.02em;
+  line-height: 110%;
+  font-weight: 500;
+}
+.mega-sport {
+  position: relative;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.div4 {
+  top: 0;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div3,
+.div4,
+.icon {
+  position: absolute;
+}
+.icon {
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.div3 {
+  top: 17px;
+  left: 26px;
+  width: 145px;
+  height: 19px;
+}
+.button,
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-family: var(--font);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.button1 {
+  color: var(--color-gray);
+}
+.parent {
+  position: absolute;
+  top: 14px;
+  left: 375px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 45px;
+}
+.div2,
+.item {
+  overflow: hidden;
+}
+.item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 9px;
+  left: 918px;
+  width: 31px;
+  height: 31px;
+}
+.div2 {
+  top: 30px;
+  left: 0;
+  width: 1019px;
+  height: 52px;
+  font-size: var(--font-size-base);
+}
+.div2,
+.div7,
+.div8 {
+  position: absolute;
+}
+.div7 {
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.div8 {
+  left: 475px;
+}
+.div10,
+.div8,
+.div9 {
+  top: 0;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.div9 {
+  position: absolute;
+  left: 665px;
+}
+.div10 {
+  left: 887px;
+}
+.div10,
+.div6,
+.inner {
+  position: absolute;
+}
+.inner {
+  top: 53.5px;
+  left: -0.5px;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 1010px;
+  height: 1px;
+}
+.div6 {
+  top: 0;
+  left: 0;
+  width: 1009px;
+  height: 28px;
+  font-size: var(--font1-size);
+}
+.icon1,
+.vector-icon {
+  position: absolute;
+  top: 81.65px;
+  left: -0.35px;
+  width: 12.71px;
+  height: 12.71px;
+}
+.icon1 {
+  top: 0;
+  left: 45px;
+  width: 136px;
+  height: 179px;
+  object-fit: cover;
+}
+.nordway {
+  top: 78px;
+  left: 113px;
+  font-weight: 500;
+  display: inline-block;
+  width: 342px;
+  height: 22px;
+}
+.div12,
+.div14,
+.nordway {
+  position: absolute;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.div12 {
+  top: 76px;
+  left: 427px;
+  font-weight: 500;
+  display: inline-block;
+  width: 136px;
+  height: 24px;
+}
+.div14 {
+  top: 8px;
+  left: 20px;
+}
+.div13 {
+  top: 66px;
+  left: 704px;
+  border: 1px solid #afafaf;
+  box-sizing: border-box;
+  width: 47px;
+  height: 47px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font1-size);
+}
+.div11,
+.div13,
+.div15 {
+  position: absolute;
+}
+.div15 {
+  top: 72px;
+  left: 852px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  width: 136px;
+  height: 24px;
+}
+.div11 {
+  top: 103px;
+  left: 0;
+  width: 1019px;
+  height: 179px;
+  text-align: center;
+}
+.div17 {
+  top: 16px;
+  left: 31px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.div17,
+.div18,
+.group {
+  position: absolute;
+}
+.div18 {
+  top: 16px;
+  left: 119px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.group {
+  top: 52px;
+  left: 0;
+  background-color: var(--color-linen);
+  width: 287px;
+  height: 68px;
+  overflow: hidden;
+  font-size: var(--h3-size);
+}
+.div20,
+.div21 {
+  letter-spacing: 0.02em;
+}
+.div20 {
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 96px;
+  line-height: 140%;
+  font-weight: 500;
+}
+.div21 {
+  top: 23px;
+  left: 24px;
+  font-size: var(--font-size);
+  line-height: 138.9%;
+  font-family: var(--font);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 188px;
+  height: 22px;
+}
+.div16,
+.div21,
+.wrapper {
+  position: absolute;
+}
+.wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #6e9c9f;
+  top: 51px;
+  left: 302px;
+  width: 236px;
+  height: 68px;
+  overflow: hidden;
+}
+.div16 {
+  top: 316px;
+  left: 464px;
+  width: 538px;
+  height: 120px;
+}
+.div,
+.div5 {
+  position: absolute;
+  width: 1019px;
+}
+.div5 {
+  top: 180px;
+  left: -1px;
+  height: 343px;
+  font-size: var(--font-size);
+}
+.div {
+  top: 0;
+  left: 5px;
+  height: 464px;
+}
+.mega-sport-wrapper {
+  position: absolute;
+  top: 104px;
+  left: 78px;
+  display: flex;
+  flex-direction: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+}
+.div23 {
+  display: inline-block;
+  width: 147px;
+}
+.div23,
+.elb00308gbstuby {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+}
+.container,
+.div24 {
+  position: absolute;
+  top: 101px;
+  left: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 9px;
+  font-size: var(--font-size-mini);
+}
+.div24 {
+  top: 201px;
+  left: 78px;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: var(--font-size-smi);
+}
+.facebook-1-1,
+.instagram-1-1,
+.twitter-1-1 {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-1-1,
+.twitter-1-1 {
+  width: 21px;
+  height: 21px;
+}
+.twitter-1-1 {
+  width: 23px;
+  height: 23px;
+}
+.div28 {
+  position: absolute;
+  top: 178px;
+  left: 867px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.visa-mastercard-1-icon {
+  position: absolute;
+  top: 219px;
+  left: 866px;
+  width: 68px;
+  height: 22px;
+  object-fit: cover;
+}
+.figma1 {
+  margin: 0;
+}
+.figma {
+  top: 267px;
+  left: 865px;
+  text-decoration: underline;
+  line-height: 50px;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 112px;
+  height: 39px;
+}
+.div22,
+.figma,
+.github {
+  position: absolute;
+}
+.github {
+  top: calc(50% + 52.5px);
+  left: 84.57%;
+  line-height: 50px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.div22 {
+  top: 656px;
+  left: 0;
+  background-color: var(--color-linen);
+  width: 1024px;
+  height: 363px;
+  overflow: hidden;
+  font-size: var(--font1-size);
+}
+.cart-1024 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1019px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--color-black);
+  font-family: var(--font);
+}
+.minus {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 68px;
+  left: 655px;
+  height: 40px;
+}
+.minus,
+.plus {
+  position: absolute;
+  width: 40px;
+}
+.plus {
+  top: 68px;
+  height: 40px;
+}
+.plus {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  left: 760px;
+}
+.div50{
+  visibility: hidden;
+}
+.cifra{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 9px;
+  left: 14px;
+}
+.result{
+  width: 287px;
+  height: 30px;
+  position: relative;
+  top: 18px;
+  left: 125px;
+}
+.all{
+width: 40px;
+height: 40px;
+position: relative;
+top: 77px;
+left: 890px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .div1 {
+        position: relative;
+        letter-spacing: 0.02em;
+        line-height: 110%;
+        font-weight: 500;
+      }
+
+      .wrapper {
+        position: absolute;
+        top: 82px;
+        left: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+      .mega-sport {
+        position: relative;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      .div4 {
+        top: 0;
+        left: 26px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .div3,
+      .div4,
+      .icon {
+        position: absolute;
+      }
+      .icon {
+        top: 0;
+        left: 0;
+        width: 18px;
+        height: 18px;
+        object-fit: cover;
+      }
+      .div3 {
+        top: 17px;
+        left: 26px;
+        width: 145px;
+        height: 19px;
+      }
+      .button,
+      .button1 {
+        cursor: pointer;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        position: relative;
+        font-size: var(--font-size-mini);
+        letter-spacing: 0.02em;
+        line-height: 140%;
+        font-family: var(--font);
+        color: var(--color-black);
+        text-align: left;
+        display: inline-block;
+      }
+      .button1 {
+        color: var(--color-gray);
+      }
+      .parent {
+        position: absolute;
+        top: 15px;
+        left: 256px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 45px;
+      }
+      .child,
+      .div2 {
+        position: absolute;
+        overflow: hidden;
+      }
+      .child {
+        cursor: pointer;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        top: 9px;
+        left: 918px;
+        width: 31px;
+        height: 31px;
+      }
+      .div2 {
+        top: 30px;
+        left: 0;
+        width: 761px;
+        height: 52px;
+        font-size: var(--font-size-base);
+      }
+      .div {
+        top: 0;
+        left: 5px;
+        width: 761px;
+        height: 464px;
+      }
+      .div,
+      .div7,
+      .div8 {
+        position: absolute;
+      }
+      .div7 {
+        top: 0;
+        left: 71px;
+        letter-spacing: 0.02em;
+        line-height: 140%;
+        font-weight: 500;
+      }
+      .div8 {
+        left: 357px;
+      }
+      .div10,
+      .div8,
+      .div9 {
+        top: 0;
+        letter-spacing: 0.02em;
+        line-height: 140%;
+        font-weight: 500;
+      }
+      .div9 {
+        position: absolute;
+        left: 469px;
+      }
+      .div10 {
+        left: 671px;
+      }
+      .div10,
+      .div6,
+      .item {
+        position: absolute;
+      }
+      .item {
+        top: 53.5px;
+        left: -0.5px;
+        border-top: 1px solid #ccc;
+        box-sizing: border-box;
+        width: 1109px;
+        height: 1px;
+      }
+      .div6 {
+        top: 0;
+        left: 0;
+        width: 761px;
+        height: 28px;
+        font-size: var(--font1-size);
+      }
+      .icon1,
+      .inner {
+        position: absolute;
+        top: 81.65px;
+        left: -0.35px;
+        width: 12.71px;
+        height: 12.71px;
+      }
+      .icon1 {
+        top: 0;
+        left: 24px;
+        width: 136px;
+        height: 179px;
+        object-fit: cover;
+      }
+      .div12,
+      .div14 {
+        position: absolute;
+        letter-spacing: 0.02em;
+        line-height: 140%;
+      }
+      .div12 {
+        top: 76px;
+        left: 311px;
+        font-weight: 500;
+        display: inline-block;
+        width: 136px;
+        height: 24px;
+      }
+      .div14 {
+        top: 8px;
+        left: 20px;
+      }
+      .div13 {
+        top: 64px;
+        left: 492px;
+        border: 1px solid #afafaf;
+        box-sizing: border-box;
+        width: 47px;
+        height: 47px;
+        overflow: hidden;
+        text-align: left;
+        font-size: var(--font1-size);
+      }
+      .div11,
+      .div13,
+      .div15 {
+        position: absolute;
+      }
+      .div15 {
+        top: 76px;
+        left: 624px;
+        letter-spacing: 0.02em;
+        line-height: 140%;
+        font-weight: 500;
+        display: inline-block;
+        width: 136px;
+        height: 24px;
+      }
+      .div11 {
+        top: 103px;
+        left: 0;
+        width: 1019px;
+        height: 179px;
+        text-align: center;
+      }
+      .div17,
+      .nordway {
+        letter-spacing: 0.02em;
+        line-height: 140%;
+        font-weight: 500;
+      }
+      .nordway {
+        position: absolute;
+        top: 182px;
+        left: -78px;
+        text-align: center;
+        display: inline-block;
+        width: 342px;
+        height: 22px;
+      }
+      .div17 {
+        top: 16px;
+        left: 31px;
+      }
+      .div17,
+      .div18,
+      .group {
+        position: absolute;
+      }
+      .div18 {
+        top: 16px;
+        left: 119px;
+        letter-spacing: 0.02em;
+        line-height: 140%;
+        font-weight: 500;
+      }
+      .group {
+        top: 52px;
+        left: 0;
+        background-color: var(--color-linen);
+        width: 287px;
+        height: 68px;
+        overflow: hidden;
+        font-size: var(--h3-size);
+      }
+      .div19 {
+        top: 0;
+        left: 0;
+        line-height: 140%;
+        font-weight: 500;
+      }
+      .div19,
+      .div20,
+      .div21 {
+        position: absolute;
+        letter-spacing: 0.02em;
+      }
+      .div20 {
+        top: 0;
+        left: 160px;
+        line-height: 140%;
+        font-weight: 500;
+      }
+      .div21 {
+        top: 23px;
+        left: 24px;
+        font-size: var(--font-size);
+        line-height: 138.9%;
+        font-family: var(--font);
+        color: var(--color-white);
+        text-align: center;
+        display: inline-block;
+        width: 188px;
+        height: 22px;
+      }
+      .wrapper {
+        cursor: pointer;
+        border: 0;
+        padding: 0;
+        background-color: #6e9c9f;
+        position: absolute;
+        top: 51px;
+        left: 302px;
+        width: 236px;
+        height: 68px;
+        overflow: hidden;
+      }
+      .div16,
+      .div5 {
+        position: absolute;
+        top: 340px;
+        left: 222px;
+        width: 538px;
+        height: 120px;
+      }
+      .div5 {
+        top: 172px;
+        left: 5px;
+        width: 763px;
+        height: 491px;
+        font-size: var(--font-size);
+      }
+      .mega-sport-wrapper {
+        position: absolute;
+        top: 102px;
+        left: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: var(--font-size-base);
+      }
+      .elb00308gbstuby {
+        position: relative;
+        letter-spacing: 0.02em;
+        line-height: 140%;
+      }
+      .container {
+        position: absolute;
+        top: 135px;
+        left: 603px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+      }
+      .div23,
+      .div24 {
+        position: absolute;
+      }
+      .div23 {
+        visibility: visible;
+        top: 10px;
+        left: 203px;
+        letter-spacing: 0.02em;
+        line-height: 140%;
+      }
+      .div24 {
+        top: 238px;
+        left: 30px;
+        width: 204px;
+        height: 62px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 4px;
+        font-size: var(--font-size-smi);
+      }
+      .facebook-1-1,
+      .instagram-1-1,
+      .twitter-1-1 {
+        position: relative;
+        width: 22px;
+        height: 22px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .facebook-1-1,
+      .twitter-1-1 {
+        width: 21px;
+        height: 21px;
+      }
+      .twitter-1-1 {
+        width: 23px;
+        height: 23px;
+      }
+      .div28 {
+        position: absolute;
+        top: 175px;
+        left: 603px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 12px;
+      }
+      .visa-mastercard-1-icon {
+        position: absolute;
+        top: 212px;
+        left: 602px;
+        width: 68px;
+        height: 22px;
+        object-fit: cover;
+      }
+      .github {
+        position: absolute;
+        top: calc(50% + 42.5px);
+        left: 78.39%;
+        font-size: var(--font1-size);
+        line-height: 50px;
+        font-family: var(--font-inter);
+        color: var(--color-white);
+      }
+      .figma1 {
+        margin: 0;
+      }
+      .div22,
+      .figma {
+        position: absolute;
+      }
+      .figma {
+        top: 256px;
+        left: 603px;
+        font-size: var(--font1-size);
+        text-decoration: underline;
+        line-height: 50px;
+        font-family: var(--font-inter);
+        display: inline-block;
+        width: 112px;
+        height: 39px;
+      }
+      .div22 {
+        top: 673px;
+        left: 0;
+        background-color: var(--color-linen);
+        width: 768px;
+        height: 363px;
+        overflow: hidden;
+        font-size: var(--font-size-mini);
+      }
+      .cart-768 {
+        position: relative;
+        background-color: var(--color-white);
+        width: 100%;
+        height: 1036px;
+        overflow: hidden;
+        text-align: left;
+        font-size: var(--h1-size);
+        color: var(--color-black);
+        font-family: var(--font);
+      }
+      .minus {
+        cursor: pointer;
+        border: 0;
+        padding: 0;
+        top: 68px;
+        left: 445px;
+        height: 40px;
+      }
+      .minus,
+      .plus {
+        position: absolute;
+        width: 40px;
+      }
+      .plus {
+        top: 68px;
+        height: 40px;
+      }
+      .plus {
+        cursor: pointer;
+        border: 0;
+        padding: 0;
+        left: 546px;
+      } 
+    .div50{
+      visibility: hidden;
+    }
+    .cifra{
+      width: 30px;
+      height: 30px;
+      position: relative;
+      top: 8px;
+      left: 17px;
+    }
+    .result{
+      width: 287px;
+      height: 30px;
+      position: relative;
+      top: 18px;
+      left: 150px;
+    }
+    .all{
+      width: 40px;
+      height: 40px;
+      position: relative;
+      top: 77px;
+      left: 680px;
+      }
+}
+
+@media screen and (max-width: 320px) {
+  .div1 {
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 110%;
+    font-weight: 500;
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 82px;
+    left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .mega-sport {
+    position: relative;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .div4 {
+    top: 0;
+    left: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .div3,
+  .div4,
+  .icon {
+    position: absolute;
+  }
+  .icon {
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+  }
+  .div3 {
+    top: 17px;
+    left: 26px;
+    width: 145px;
+    height: 19px;
+  }
+  .button,
+  .button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    font-size: var(--font-size-mini);
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-family: var(--font);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+  }
+  .button1 {
+    color: var(--color-gray);
+  }
+  .parent {
+    visibility: hidden;
+  }
+  .child,
+  .div2 {
+    position: absolute;
+    overflow: hidden;
+  }
+  .child {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 9px;
+    left: 918px;
+    width: 31px;
+    height: 31px;
+  }
+  .div2 {
+    top: 30px;
+    left: 0;
+    width: 761px;
+    height: 52px;
+    font-size: var(--font-size-base);
+  }
+  .div {
+    top: 0;
+    left: 5px;
+    width: 761px;
+    height: 464px;
+  }
+  .div,
+  .div7,
+  .div8 {
+    position: absolute;
+  }
+  .div7 {
+    visibility: hidden;
+    top: 100px;
+    left: 60px;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 500;
+  }
+  .div8 {
+    left: 175px;
+    top: 160px;
+  }
+  .div9 {
+    top: 210px;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 500;
+  }
+  .div9 {
+    position: absolute;
+    left: 175px;
+  }
+  .div10 {
+    left: 175px;
+    top: 265px;
+  }
+  .div6,
+  .item {
+    position: absolute;
+    visibility: hidden;
+  }
+  .item {
+    top: 53.5px;
+    left: -0.5px;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 1109px;
+    height: 1px;
+  }
+  .div6 {
+    visibility: visible;
+    top: 12px;
+    left: 0px;
+    width: 761px;
+    height: 28px;
+    font-size: var(--font1-size);
+  }
+  .icon1,
+  .inner {
+    position: absolute;
+    top: 81.65px;
+    left: -10px;
+    width: 320.71px;
+    height: 12.71px;
+  }
+  .icon1 {
+    top: 0;
+    left: 24px;
+    width: 136px;
+    height: 179px;
+    object-fit: cover;
+  }
+  .div12,
+  .div14 {
+    position: absolute;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+  }
+  .div12 {
+    top: 50px;
+    left: 160px;
+    font-weight: 500;
+    display: inline-block;
+    width: 136px;
+    height: 24px;
+  }
+  .div14 {
+    top: 0px;
+    left: 10px;
+  }
+  .div13 {
+    top: 100px;
+    left: 215px;
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+    width: 29px;
+    height: 29px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font1-size);
+  }
+  .div11,
+  .div13,
+  .div15 {
+    position: absolute;
+  }
+  .div15 {
+    top: 150px;
+    left: 160px;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 500;
+    display: inline-block;
+    width: 136px;
+    height: 24px;
+  }
+  .div11 {
+    top: 150px;
+    left: 0;
+    width: 1019px;
+    height: 179px;
+    text-align: center;
+  }
+  .div17,
+  .nordway {
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 500;
+  }
+  .nordway {
+    position: absolute;
+    top: 182px;
+    left: -78px;
+    text-align: center;
+    display: inline-block;
+    width: 342px;
+    height: 22px;
+  }
+  .div17,
+  .div18,
+  .group {
+    position: absolute;
+    left: 0;
+  }
+  .div18,
+  .div17 {
+    top: 0;
+    left: 15px;
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  font-weight: 500;
+  }
+  .div18{
+    left: 85px;
+    top: 13px;
+  }
+  .div17{
+    top: 13px;
+    left: 12px;
+  }
+  .group {
+    top: 75px;
+    left: -180px;
+  background-color: var(--color-linen);
+  width: 214px;
+  height: 52px;
+  overflow: hidden;
+  font-size: var(--h4-size);
+  }
+  .div20,
+  .div21 {
+    position: absolute;
+    letter-spacing: 0.02em;
+  }
+  .div20 {
+    top: 35px;
+    left: -90px;
+    line-height: 140%;
+    font-weight: 500;
+  }
+  .div21 {
+    top: 15px;
+    left: 10px;
+    font-size: var(--font-size);
+    line-height: 138.9%;
+    font-family: var(--font);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    width: 188px;
+    height: 22px;
+  }
+  .wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #6e9c9f;
+    position: absolute;
+    top: 140px;
+    left: -180px;
+    width: 214px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .div16,
+  .div5 {
+    position: absolute;
+    top: 340px;
+    left: 222px;
+    width: 538px;
+    height: 120px;
+  }
+  .div5 {
+    top: 130px;
+    left: 5px;
+    width: 763px;
+    height: 491px;
+    font-size: var(--font-size);
+  }
+  .mega-sport-wrapper {
+    position: absolute;
+    top: 102px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: var(--font-size-base);
+  }
+  .elb00308gbstuby {
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+  }
+  .container {
+    position: absolute;
+    top: 135px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .div23,
+  .div24 {
+    position: absolute;
+  }
+  .div23 {
+    visibility: visible;
+    top: 20px;
+    left: 0px;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+  }
+  .div24 {
+    top: 238px;
+    left: 30px;
+    width: 204px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    font-size: var(--font-size-smi);
+  }
+  .facebook-1-1,
+  .instagram-1-1,
+  .twitter-1-1 {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .facebook-1-1,
+  .twitter-1-1 {
+    width: 21px;
+    height: 21px;
+  }
+  .twitter-1-1 {
+    width: 23px;
+    height: 23px;
+  }
+  .div28 {
+    position: absolute;
+    top: 190px;
+    left: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .visa-mastercard-1-icon {
+    position: absolute;
+    top: 310px;
+    left: 32px;
+    width: 68px;
+    height: 22px;
+    object-fit: cover;
+  }
+  .github {
+    position: absolute;
+    top: 295px;
+    left: 190px;
+    font-size: var(--font1-size);
+    line-height: 50px;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+  }
+  .figma1 {
+    margin: 0;
+  }
+  .div22,
+  .figma {
+    position: absolute;
+  }
+  .figma {
+    top: 295px;
+    left: 120px;
+    font-size: var(--font1-size);
+    text-decoration: underline;
+    line-height: 50px;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 112px;
+    height: 39px;
+  }
+  .div22 {
+    top: 673px;
+    left: 0;
+    background-color: var(--color-linen);
+    width: 768px;
+    height: 363px;
+    overflow: hidden;
+    font-size: var(--font-size-mini);
+  }
+  .cart-768 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1036px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--h1-size);
+    color: var(--color-black);
+    font-family: var(--font);
+  }
+  .minus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    top: 100px;
+    left: 175px;
+    height: 30px;
+  }
+  .minus,
+  .plus {
+    position: absolute;
+    width: 30px;
+  }
+  .plus {
+    top: 100px;
+    height: 30px;
+  }
+  .plus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    left: 253px;
+  }
+  .div50{
+    visibility: hidden;
+  }
+  .cifra{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+  }
+  .result{
+    width: 287px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 100px;
+  }
+  .all{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 153px;
+    left: 175px;
+    }
+}
